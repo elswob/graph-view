@@ -214,19 +214,6 @@ function d3_graph(graph, gname, conf) {
 
 		})
 
-	node.append("image")
-		.attr("xlink:href", function(d){
-			if (conf[d.type].nodeType=='img'){
-				return conf[d.type].nodeVal
-			}
-		})
-	  	.attr("x", -50)
-	  	.attr("y", -100)
-	  	//.attr("width", 16)
-	  	.attr("height", function (d) {
-			return d.size*2
-		})
-
     node.append("svg:title")
         .text(function (d) {
             return d.name;
