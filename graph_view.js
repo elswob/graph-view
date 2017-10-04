@@ -189,17 +189,30 @@ function d3_graph(graph, gname, conf) {
         })
         .on("mouseout", mouseout)
 
-
-    node.append("circle")
-        .attr("r", function (d) {
-			if (conf[d.type].nodeType=='circle'){
-            	return d.size;
+	node.filter(function(d) {
+		if (conf[d.type].nodeType=='circle'){
+			d3.select(this).append('circle')
+				.attr("r", function (d) {
+	            	return d.size;
+	        	})
+	        	.style("fill", function (d) {
+	            	return conf[d.type].nodeVal;
+	        	})
+	        	.style("stroke", '#000')
+		}else if (conf[d.type].nodeType=='img'){
+			d3.select(this).append("image")
+				.attr("xlink:href", function(d){
+					return conf[d.type].nodeVal
+				})
+				.attr("x", -50)
+				.attr("y", -100)
+				//.attr("width", 16)
+				.attr("height", function (d) {
+					return d.size*2
+				})
 			}
-        })
-        .style("fill", function (d) {
-            return conf[d.type].nodeVal;
-        })
-        .style("stroke", '#000')
+
+		})
 
 	node.append("image")
 		.attr("xlink:href", function(d){
