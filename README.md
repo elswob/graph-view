@@ -1,6 +1,6 @@
 # graph-view
 
-To test start up a server, e.g.
+To test, start up a server, e.g.
 
 ```
 python -m SimpleHTTPServer 8888
