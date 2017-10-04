@@ -15,9 +15,10 @@ function transform_data(jsonData) {
 	d3.json(jsonData, function(data) {
 		for (i in data){
 			d = data[i]
+
 				//nodes
 				if ('node' in d){
-					//set size limit
+					//set node size limit
 					if ('size' in d['node']){
 						nodeSize = d['node']['size']
 						if (nodeSize < nodeLimits[0]){
@@ -74,8 +75,8 @@ function transform_data(jsonData) {
 				}
 			//end of data parse loop
 			}
-			console.log(g)
 
+	//console.log(g)
 		if (nodeLimits == [1000000, 0]){
 			nodeLimits = [1,10]
 		}
@@ -109,9 +110,10 @@ function transform_data(jsonData) {
         node.size = (Math.sqrt(node.size) * nodeAdjust) + 2
         return node
     })
-		console.log(g)
-})
-return g
+	//console.log(g)
+
+	})
+	return g
 }
 
 function d3_graph(graph, gname, conf) {
@@ -119,6 +121,7 @@ function d3_graph(graph, gname, conf) {
 	//need to add link labels and multiple links between nodes
 	//https://bl.ocks.org/mattkohl/146d301c0fc20d89d85880df537de7b0
     console.log('d3_graph : ' + gname)
+	console.log(graph.length)
     var width = $("#"+gname).width();
     var height = $("#"+gname).height();
 	console.log(width,height)
@@ -350,6 +353,11 @@ function d3_graph(graph, gname, conf) {
 }
 
 function graph_view_run(jsonData,element_id,conf){
-	g = transform_data(jsonData)
-	d3_graph(g,element_id,conf)
+	g = transform_data(jsonData);
+	setTimeout(function(){
+		console.log(g);
+		d3_graph(g,element_id,conf)
+	}, 300);
+
+	//d3_graph(g,element_id,conf)
 }
