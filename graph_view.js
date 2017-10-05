@@ -352,12 +352,58 @@ function d3_graph(graph, gname, conf) {
     // }
 }
 
-function graph_view_run(jsonData,element_id,conf){
+function graph_controller(controller_div){
+	console.log('creating controller_div')
+	var div = document.getElementById(controller_div);
+	div.innerHTML += '<h1>Graph configuration:</h1><br><span style="float:left;margin-left: 10px;">Charge:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider1"></div>';
+	div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Link Distance:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider2"></div>';
+	div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Gravity:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider3"></div>';
+
+	$( function() {
+	    $( "#slider1" ).slider({
+	      range: "max",
+	      min: 1,
+	      max: 10,
+	      value: 2,
+	      slide: function( event, ui ) {
+	        $( "#amount" ).val( ui.value );
+	      }
+	    });
+	    $( "#amount" ).val( $( "#slider1" ).slider( "value" ) );
+	  } );
+
+	$( function() {
+	    $( "#slider2" ).slider({
+	      range: "max",
+	      min: 1,
+	      max: 10,
+	      value: 7,
+	      slide: function( event, ui ) {
+	        $( "#amount" ).val( ui.value );
+	      }
+	    });
+	    $( "#amount" ).val( $( "#slider2" ).slider( "value" ) );
+	  } );
+
+	$( function() {
+	    $( "#slider3" ).slider({
+	      range: "max",
+	      min: 1,
+	      max: 10,
+	      value: 9,
+	      slide: function( event, ui ) {
+	        $( "#amount" ).val( ui.value );
+	      }
+	    });
+	    $( "#amount" ).val( $( "#slider3" ).slider( "value" ) );
+	  } );
+}
+
+function graph_view_run(jsonData,element_id,conf,controller_div){
 	g = transform_data(jsonData);
 	setTimeout(function(){
 		console.log(g);
 		d3_graph(g,element_id,conf)
+		graph_controller(controller_div)
 	}, 300);
-
-	//d3_graph(g,element_id,conf)
 }

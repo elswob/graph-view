@@ -2,14 +2,39 @@
 
 <html>
 <head>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="./graph_view.js"></script>
+<style>
+.container {
+    width: 98%;
+    margin: auto;
+    padding: 5px;
+}
+.one {
+    width: 75%;
+    height: 800px;
+    float: left;
+	border-style: solid;
+}
+.two {
+	width: 24%;
+    height: 800px;
+	float: right;
+	border-style: solid;
+}
+</style>
 </head>
 
 <body>
-<div id = 'graph_view_div' style="height:700px"></div>
-
+	<section class="container">
+	    <div id='graph_view_div' class="one"></div>
+	    <div id='graph_controller_div' class="two"></div>
+	</section>
+<!--div id = 'graph_view_div' style="height:700px;width:1000px"></div>
+<div id = 'graph_controller_div' style="height:700px;width:300px"></div-->
 <script>
 
 //config data
@@ -26,7 +51,7 @@ var axon_conf={
 	'personPub':{'linkCol':'orange'},
 }
 
-graph_view_run('axon_demo.json','graph_view_div',axon_conf)
+graph_view_run('axon_demo.json','graph_view_div',axon_conf,'graph_controller_div')
 </script>
 
 </body>
