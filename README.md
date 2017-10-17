@@ -54,7 +54,6 @@ Needs to have nodes before links
 //config data
 var axon_conf={
 	'org':{'nodeType':'img','nodeVal':'https://png.icons8.com/organization/nolan/200','textCol':'#C761FB'},
-	'org':{'nodeType':'img','nodeVal':'https://png.icons8.com/organization/nolan/200','textCol':'#C761FB'},
 	'person':{'nodeType':'img','nodeVal':'https://png.icons8.com/person-female/color/200','textCol':'#BC9E6A'},
 	'type':{'nodeType':'img','nodeVal':'https://png.icons8.com/idea/office/200','textCol':'dark grey'},
 	'bigram':{'nodeType':'img','nodeVal':'https://png.icons8.com/idea/office/200','textCol':'dark grey'},
