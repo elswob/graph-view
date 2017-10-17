@@ -56,38 +56,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7", 
-            "name": "Niall J Twomey", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly", 
-            "name": "publicly", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -109,22 +77,6 @@
             "n2": "publicly", 
             "type": "personConcept", 
             "value": 7.064492734175287
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -169,42 +121,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
             "id": "BISC", 
             "name": "BISC", 
             "size": 2, 
             "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "9510fe63-edfb-4b86-a338-fcda5a0a27c7", 
-            "name": "Mark O Winfield", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -241,42 +161,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "6b7f2f52-058a-4806-aee2-e0d87eaf63e9", 
             "name": "A M Przewieslikallen", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -313,34 +201,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "4fd2d6ef-3986-4566-97e4-7ae7db296525", 
             "name": "Philip C J Donoghue", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -369,42 +233,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
             "id": "GELY", 
             "name": "GELY", 
             "size": 2, 
             "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "4fd2d6ef-3986-4566-97e4-7ae7db296525", 
-            "name": "Philip C J Donoghue", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -441,42 +273,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "6a371317-6d86-4273-bf1f-8a707a9e3102", 
             "name": "Paul A Wilkinson", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -513,42 +313,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "7fcab681-af61-4e83-b5e0-9c41e4f08739", 
             "name": "Amanda J Burridge", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -585,42 +353,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2", 
             "name": "Gary L A Barker", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -656,38 +392,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2", 
-            "name": "Gary L A Barker", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -712,38 +416,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2", 
-            "name": "Gary L A Barker", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -765,30 +437,6 @@
             "n2": "putative", 
             "type": "personConcept", 
             "value": 8.954677021213342
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -797,14 +445,6 @@
             "name": "Jane A Coghill", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -841,34 +481,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "19982d31-4c91-49a9-b797-80e967806092", 
             "name": "Emma S J Robinson", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -896,38 +512,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "19982d31-4c91-49a9-b797-80e967806092", 
-            "name": "Emma S J Robinson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -949,30 +533,6 @@
             "n2": "putative", 
             "type": "personConcept", 
             "value": 8.34582345812204
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -981,14 +541,6 @@
             "name": "Keith J Edwards", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -1025,42 +577,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
             "id": "CABI", 
             "name": "CABI", 
             "size": 2, 
             "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "name": "Keith J Edwards", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -1096,35 +616,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "putative", 
+            "type": "personConcept", 
+            "value": 8.515700160653214
         }
     }, 
     {
-        "node": {
-            "id": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "name": "Keith J Edwards", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
+        "link": {
+            "n1": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
+            "n2": "putative", 
+            "type": "personConcept", 
+            "value": 7.667561540084395
         }
     }, 
     {
@@ -1152,38 +664,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "name": "Keith J Edwards", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -1205,78 +685,6 @@
             "n2": "putative", 
             "type": "personConcept", 
             "value": 7.667561540084395
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "name": "Keith J Edwards", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 7.667561540084395
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -1317,46 +725,6 @@
             "n2": "nematode", 
             "type": "personConcept", 
             "value": 10.319664486585436
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "GELY", 
-            "name": "GELY", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "name": "Davide Pisani", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -1392,46 +760,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "name": "Davide Pisani", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -1465,42 +793,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "CABI", 
-            "name": "CABI", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "c2757edd-b165-419b-92d2-d99a345099ef", 
             "name": "Hannah Rose", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -1536,38 +832,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "c2757edd-b165-419b-92d2-d99a345099ef", 
-            "name": "Hannah Rose", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -1593,42 +857,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "CABI", 
-            "name": "CABI", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "511e20f7-37c6-4f00-856d-bac1839c38a4", 
             "name": "Josephine G Walker", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -1664,46 +896,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "511e20f7-37c6-4f00-856d-bac1839c38a4", 
-            "name": "Josephine G Walker", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -1737,42 +929,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
             "name": "Mark Viney", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -1808,35 +968,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "nematode", 
+            "type": "personConcept", 
+            "value": 7.995678626217358
         }
     }, 
     {
-        "node": {
-            "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "name": "Mark Viney", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
+        "link": {
+            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
+            "n2": "nematode", 
+            "type": "personConcept", 
+            "value": 49.00043451177402
         }
     }, 
     {
@@ -1864,38 +1016,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "name": "Mark Viney", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -1920,38 +1040,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "name": "Mark Viney", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -1973,86 +1061,6 @@
             "n2": "nematode", 
             "type": "personConcept", 
             "value": 49.00043451177402
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "name": "Mark Viney", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 49.00043451177402
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -2105,34 +1113,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
             "name": "Tilo Burghardt", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -2160,35 +1144,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "annotate", 
+            "type": "personConcept", 
+            "value": 8.123782159408357
         }
     }, 
     {
-        "node": {
-            "id": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "name": "Tilo Burghardt", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
+        "link": {
+            "n1": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
+            "n2": "annotate", 
+            "type": "personConcept", 
+            "value": 11.481486060122112
         }
     }, 
     {
@@ -2216,38 +1192,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "name": "Tilo Burghardt", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -2272,38 +1216,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "name": "Tilo Burghardt", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -2325,70 +1237,6 @@
             "n2": "annotate", 
             "type": "personConcept", 
             "value": 11.481486060122112
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "name": "Tilo Burghardt", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 11.481486060122112
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
         }
     }, 
     {
@@ -2397,30 +1245,6 @@
             "name": "COSC", 
             "size": 2, 
             "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "name": "Tilo Burghardt", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -2457,34 +1281,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
             "name": "Majid Mirmehdi", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -2512,35 +1312,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "annotate", 
+            "type": "personConcept", 
+            "value": 8.123782159408357
         }
     }, 
     {
-        "node": {
-            "id": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "name": "Majid Mirmehdi", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
+        "link": {
+            "n1": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
+            "n2": "annotate", 
+            "type": "personConcept", 
+            "value": 8.686132779630846
         }
     }, 
     {
@@ -2568,38 +1360,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "name": "Majid Mirmehdi", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -2621,102 +1381,6 @@
             "n2": "annotate", 
             "type": "personConcept", 
             "value": 8.686132779630846
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "name": "Majid Mirmehdi", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.686132779630846
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "COSC", 
-            "name": "COSC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "name": "Majid Mirmehdi", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
         }
     }, 
     {
@@ -2752,38 +1416,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "name": "Majid Mirmehdi", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
-            "type": "type"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -2809,30 +1441,6 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7", 
-            "name": "Niall J Twomey", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "publicly:available", 
             "name": "publicly:available", 
             "size": 1, 
@@ -2864,38 +1472,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7", 
-            "name": "Niall J Twomey", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -2917,30 +1493,6 @@
             "n2": "publicly:available", 
             "type": "personConcept", 
             "value": 10.489454989793387
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "CABI", 
-            "name": "CABI", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -2949,14 +1501,6 @@
             "name": "Paul D Bates", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -2992,38 +1536,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "9d424135-ad4d-485d-8607-648c8890b4fa", 
-            "name": "Paul D Bates", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -3048,38 +1560,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "9d424135-ad4d-485d-8607-648c8890b4fa", 
-            "name": "Paul D Bates", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -3101,14 +1581,6 @@
             "n2": "publicly:available", 
             "type": "personConcept", 
             "value": 7.145086977692144
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
         }
     }, 
     {
@@ -3117,30 +1589,6 @@
             "name": "GEOG", 
             "size": 2, 
             "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "9d424135-ad4d-485d-8607-648c8890b4fa", 
-            "name": "Paul D Bates", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -3177,42 +1625,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "COSC", 
-            "name": "COSC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
             "name": "Peter A Flach", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -3248,38 +1664,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "name": "Peter A Flach", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -3301,46 +1685,6 @@
             "n2": "publicly:available", 
             "type": "personConcept", 
             "value": 7.575118363368933
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "CABI", 
-            "name": "CABI", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "name": "Peter A Flach", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -3376,38 +1720,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "name": "Peter A Flach", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -3432,38 +1744,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "name": "Peter A Flach", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -3485,30 +1765,6 @@
             "n2": "publicly:available", 
             "type": "personConcept", 
             "value": 7.575118363368933
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -3517,14 +1773,6 @@
             "name": "M U B St Pourcain", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -3557,38 +1805,6 @@
             "n2": "publicly:available", 
             "type": "personConcept", 
             "value": 8.334419008982048
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "name": "Mark Viney", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -3632,35 +1848,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "parasitic:nematode", 
+            "type": "personConcept", 
+            "value": 8.510041520575164
         }
     }, 
     {
-        "node": {
-            "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "name": "Mark Viney", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "parasitic:nematode", 
-            "name": "parasitic:nematode", 
-            "size": 1, 
-            "type": "bigram"
+        "link": {
+            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
+            "n2": "parasitic:nematode", 
+            "type": "personConcept", 
+            "value": 38.39254497678533
         }
     }, 
     {
@@ -3688,38 +1896,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "name": "Mark Viney", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "parasitic:nematode", 
-            "name": "parasitic:nematode", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -3744,38 +1920,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "name": "Mark Viney", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "parasitic:nematode", 
-            "name": "parasitic:nematode", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -3797,70 +1941,6 @@
             "n2": "parasitic:nematode", 
             "type": "personConcept", 
             "value": 38.39254497678533
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "name": "Mark Viney", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "parasitic:nematode", 
-            "name": "parasitic:nematode", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
-            "value": 8.510041520575164
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
-            "value": 38.39254497678533
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
         }
     }, 
     {
@@ -3869,14 +1949,6 @@
             "name": "BIOC", 
             "size": 2, 
             "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -3928,38 +2000,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e6ebec41-c3f0-4f5d-abf5-6bf8bc2c7e89", 
-            "name": "Richard B Sessions", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -3984,38 +2024,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e6ebec41-c3f0-4f5d-abf5-6bf8bc2c7e89", 
-            "name": "Richard B Sessions", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -4037,14 +2045,6 @@
             "n2": "protein:sequence", 
             "type": "personConcept", 
             "value": 8.605548319173783
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
         }
     }, 
     {
@@ -4057,26 +2057,10 @@
     }, 
     {
         "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "810da320-8048-4d2d-b71b-418c64011ba7", 
             "name": "Fabio Parmeggiani", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -4113,42 +2097,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "CHEM", 
-            "name": "CHEM", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "123a5a8b-ffd1-4bdf-9510-8b2d892cfc2c", 
             "name": "Gail J Bartlett", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -4185,42 +2137,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BIOC", 
-            "name": "BIOC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
             "name": "Josephine C Adams", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -4256,35 +2176,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "protein:sequence", 
+            "type": "personConcept", 
+            "value": 8.3767507096021
         }
     }, 
     {
-        "node": {
-            "id": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
-            "name": "Josephine C Adams", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
+        "link": {
+            "n1": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
+            "n2": "protein:sequence", 
+            "type": "personConcept", 
+            "value": 7.123205023799299
         }
     }, 
     {
@@ -4312,38 +2224,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
-            "name": "Josephine C Adams", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -4365,86 +2245,6 @@
             "n2": "protein:sequence", 
             "type": "personConcept", 
             "value": 7.123205023799299
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
-            "name": "Josephine C Adams", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 7.123205023799299
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "CHEM", 
-            "name": "CHEM", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -4453,14 +2253,6 @@
             "name": "Chris W Wood", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -4497,42 +2289,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "CHEM", 
-            "name": "CHEM", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "e2525190-924f-4510-8a9f-873f393b7870", 
             "name": "Dek N Woolfson", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -4568,38 +2328,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "name": "Dek N Woolfson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -4624,38 +2352,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "name": "Dek N Woolfson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -4677,14 +2373,6 @@
             "n2": "protein:sequence", 
             "type": "personConcept", 
             "value": 19.1073489661227
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
         }
     }, 
     {
@@ -4693,30 +2381,6 @@
             "name": "NSQI", 
             "size": 2, 
             "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "name": "Dek N Woolfson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -4752,35 +2416,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "protein:sequence", 
+            "type": "personConcept", 
+            "value": 8.3767507096021
         }
     }, 
     {
-        "node": {
-            "id": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "name": "Dek N Woolfson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
+        "link": {
+            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
+            "n2": "protein:sequence", 
+            "type": "personConcept", 
+            "value": 19.1073489661227
         }
     }, 
     {
@@ -4808,35 +2464,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "protein:sequence", 
+            "type": "personConcept", 
+            "value": 8.3767507096021
         }
     }, 
     {
-        "node": {
-            "id": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "name": "Dek N Woolfson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
+        "link": {
+            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
+            "n2": "protein:sequence", 
+            "type": "personConcept", 
+            "value": 19.1073489661227
         }
     }, 
     {
@@ -4864,38 +2512,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "name": "Dek N Woolfson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -4920,38 +2536,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "name": "Dek N Woolfson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -4973,134 +2557,6 @@
             "n2": "protein:sequence", 
             "type": "personConcept", 
             "value": 19.1073489661227
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "name": "Dek N Woolfson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "name": "Dek N Woolfson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -5145,34 +2601,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "ca01d490-0cb5-41ea-b4d8-9e1263cd6d30", 
             "name": "Maciej Klemm", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -5200,38 +2632,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "ca01d490-0cb5-41ea-b4d8-9e1263cd6d30", 
-            "name": "Maciej Klemm", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -5256,38 +2656,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "ca01d490-0cb5-41ea-b4d8-9e1263cd6d30", 
-            "name": "Maciej Klemm", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -5309,30 +2677,6 @@
             "n2": "breast:cancer", 
             "type": "personConcept", 
             "value": 59.571865205971214
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -5341,14 +2685,6 @@
             "name": "Richard M Martin", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -5384,35 +2720,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.269217724333611
         }
     }, 
     {
-        "node": {
-            "id": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
-            "name": "Richard M Martin", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
+        "link": {
+            "n1": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 8.490797477668897
         }
     }, 
     {
@@ -5440,38 +2768,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
-            "name": "Richard M Martin", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -5493,70 +2789,6 @@
             "n2": "breast:cancer", 
             "type": "personConcept", 
             "value": 8.490797477668897
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
-            "name": "Richard M Martin", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 8.490797477668897
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
         }
     }, 
     {
@@ -5569,26 +2801,10 @@
     }, 
     {
         "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
             "name": "Jeffrey M P Holly", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -5624,38 +2840,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "name": "Jeffrey M P Holly", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -5680,38 +2864,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "name": "Jeffrey M P Holly", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -5733,30 +2885,6 @@
             "n2": "breast:cancer", 
             "type": "personConcept", 
             "value": 44.17587416608345
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMST", 
-            "name": "BMST", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -5765,14 +2893,6 @@
             "name": "Maryam Afzal", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -5809,34 +2929,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "662ec2f1-e8a7-4d56-81b2-7d97c1335cb4", 
             "name": "Shelley Potter", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -5861,46 +2957,6 @@
             "n2": "breast:cancer", 
             "type": "personConcept", 
             "value": 14.341988603342887
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "662ec2f1-e8a7-4d56-81b2-7d97c1335cb4", 
-            "name": "Shelley Potter", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -5937,42 +2993,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BIOC", 
-            "name": "BIOC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "7648cbbf-2a1d-47f7-98df-b83731400558", 
             "name": "Kevin Gaston", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -6008,38 +3032,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "name": "Kevin Gaston", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -6064,38 +3056,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "name": "Kevin Gaston", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -6117,30 +3077,6 @@
             "n2": "breast:cancer", 
             "type": "personConcept", 
             "value": 7.636388020107856
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -6149,14 +3085,6 @@
             "name": "Jenny L Donovan", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -6192,35 +3120,75 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.269217724333611
         }
     }, 
     {
-        "node": {
-            "id": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "name": "Jenny L Donovan", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.051587034221399
         }
     }, 
     {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
+        }
+    }, 
+    {
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.269217724333611
+        }
+    }, 
+    {
+        "link": {
+            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.051587034221399
+        }
+    }, 
+    {
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
+        }
+    }, 
+    {
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.269217724333611
+        }
+    }, 
+    {
+        "link": {
+            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.051587034221399
         }
     }, 
     {
@@ -6249,202 +3217,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "name": "Jenny L Donovan", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.051587034221399
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "name": "Jenny L Donovan", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.051587034221399
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "name": "Jenny L Donovan", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.051587034221399
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
             "name": "Ian J Craddock", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -6472,35 +3248,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.269217724333611
         }
     }, 
     {
-        "node": {
-            "id": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "name": "Ian J Craddock", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
+        "link": {
+            "n1": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 74.88605664769317
         }
     }, 
     {
@@ -6528,38 +3296,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "name": "Ian J Craddock", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -6584,38 +3320,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "name": "Ian J Craddock", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -6637,78 +3341,6 @@
             "n2": "breast:cancer", 
             "type": "personConcept", 
             "value": 74.88605664769317
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "name": "Ian J Craddock", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 74.88605664769317
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -6717,14 +3349,6 @@
             "name": "Dallan B Byrne", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -6753,34 +3377,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "17410615-6e27-4a42-92c6-7ad49185237d", 
             "name": "Kathreena M Kurian", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -6805,46 +3405,6 @@
             "n2": "breast:cancer", 
             "type": "personConcept", 
             "value": 13.188424994129406
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMST", 
-            "name": "BMST", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "17410615-6e27-4a42-92c6-7ad49185237d", 
-            "name": "Kathreena M Kurian", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -6880,38 +3440,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "17410615-6e27-4a42-92c6-7ad49185237d", 
-            "name": "Kathreena M Kurian", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -6937,34 +3465,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
             "name": "Claire M Perks", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -6989,46 +3493,6 @@
             "n2": "breast:cancer", 
             "type": "personConcept", 
             "value": 40.5003129173816
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMST", 
-            "name": "BMST", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "name": "Claire M Perks", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -7064,38 +3528,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "name": "Claire M Perks", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -7121,14 +3553,6 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
             "id": "MATH", 
             "name": "MATH", 
             "size": 2, 
@@ -7137,26 +3561,10 @@
     }, 
     {
         "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
             "name": "Christophe Andrieu", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -7192,35 +3600,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.269217724333611
         }
     }, 
     {
-        "node": {
-            "id": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
-            "name": "Christophe Andrieu", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
+        "link": {
+            "n1": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 7.333482019445119
         }
     }, 
     {
@@ -7248,38 +3648,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
-            "name": "Christophe Andrieu", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -7301,86 +3669,6 @@
             "n2": "breast:cancer", 
             "type": "personConcept", 
             "value": 7.333482019445119
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
-            "name": "Christophe Andrieu", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 7.333482019445119
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMST", 
-            "name": "BMST", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -7389,14 +3677,6 @@
             "name": "Craig A Mcardle", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -7432,35 +3712,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.269217724333611
         }
     }, 
     {
-        "node": {
-            "id": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "name": "Craig A Mcardle", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
+        "link": {
+            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
+            "n2": "breast:cancer", 
+            "type": "personConcept", 
+            "value": 10.132532512140948
         }
     }, 
     {
@@ -7488,38 +3760,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "name": "Craig A Mcardle", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -7541,78 +3781,6 @@
             "n2": "breast:cancer", 
             "type": "personConcept", 
             "value": 10.132532512140948
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "name": "Craig A Mcardle", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.132532512140948
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -7653,46 +3821,6 @@
             "n2": "available:http", 
             "type": "personConcept", 
             "value": 7.359518563029578
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "MATH", 
-            "name": "MATH", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523", 
-            "name": "Daniel John Lawson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "available:http", 
-            "name": "available:http", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -7728,46 +3856,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523", 
-            "name": "Daniel John Lawson", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "available:http", 
-            "name": "available:http", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -7801,34 +3889,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "f4d3d2e8-dcc0-412e-9fee-91847127513b", 
             "name": "Tom R Gaunt", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "available:http", 
-            "name": "available:http", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -7856,38 +3920,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "f4d3d2e8-dcc0-412e-9fee-91847127513b", 
-            "name": "Tom R Gaunt", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "available:http", 
-            "name": "available:http", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -7909,46 +3941,6 @@
             "n2": "available:http", 
             "type": "personConcept", 
             "value": 11.534617148551582
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "f4d3d2e8-dcc0-412e-9fee-91847127513b", 
-            "name": "Tom R Gaunt", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "available:http", 
-            "name": "available:http", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -7984,38 +3976,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "f4d3d2e8-dcc0-412e-9fee-91847127513b", 
-            "name": "Tom R Gaunt", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "available:http", 
-            "name": "available:http", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -8037,30 +3997,6 @@
             "n2": "available:http", 
             "type": "personConcept", 
             "value": 11.534617148551582
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "name": "Davide Pisani", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -8093,46 +4029,6 @@
             "n2": "express:sequence", 
             "type": "personConcept", 
             "value": 7.4156687756324695
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "GELY", 
-            "name": "GELY", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "name": "Davide Pisani", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "express:sequence", 
-            "name": "express:sequence", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -8168,46 +4064,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "name": "Davide Pisani", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "express:sequence", 
-            "name": "express:sequence", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -8237,22 +4093,6 @@
             "n2": "express:sequence", 
             "type": "personConcept", 
             "value": 7.4156687756324695
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -8297,42 +4137,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMST", 
-            "name": "BMST", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "712bb62c-1bde-43e5-ac46-2f3493af1997", 
             "name": "Emma E Vincent", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -8368,38 +4176,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "712bb62c-1bde-43e5-ac46-2f3493af1997", 
-            "name": "Emma E Vincent", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -8425,14 +4201,6 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
             "id": "PANM", 
             "name": "PANM", 
             "size": 2, 
@@ -8441,26 +4209,10 @@
     }, 
     {
         "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "0645d396-cd0b-42c2-9820-e60a175d388a", 
             "name": "Karim T A Malik", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -8496,38 +4248,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "0645d396-cd0b-42c2-9820-e60a175d388a", 
-            "name": "Karim T A Malik", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -8549,46 +4269,6 @@
             "n2": "cancer:cell", 
             "type": "personConcept", 
             "value": 9.47755576649368
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMST", 
-            "name": "BMST", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "name": "Jeffrey M P Holly", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -8624,38 +4304,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "name": "Jeffrey M P Holly", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -8680,38 +4328,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "name": "Jeffrey M P Holly", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -8733,30 +4349,6 @@
             "n2": "cancer:cell", 
             "type": "personConcept", 
             "value": 40.79048498545737
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "PANM", 
-            "name": "PANM", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -8765,14 +4357,6 @@
             "name": "Keith W Brown", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -8808,38 +4392,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "7a5da52e-9fde-4e4b-be03-2e56fa343c2d", 
-            "name": "Keith W Brown", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -8865,42 +4417,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "PANM", 
-            "name": "PANM", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "3f185f22-94e7-4113-a43a-874fe0a0fdc4", 
             "name": "Ann C Williams", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -8936,38 +4456,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "3f185f22-94e7-4113-a43a-874fe0a0fdc4", 
-            "name": "Ann C Williams", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -8992,38 +4480,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "3f185f22-94e7-4113-a43a-874fe0a0fdc4", 
-            "name": "Ann C Williams", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -9045,30 +4501,6 @@
             "n2": "cancer:cell", 
             "type": "personConcept", 
             "value": 15.09528445472132
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "PANM", 
-            "name": "PANM", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
         }
     }, 
     {
@@ -9077,14 +4509,6 @@
             "name": "Marianna Szemes", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -9121,42 +4545,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "PANM", 
-            "name": "PANM", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "3b3d7668-059e-483a-bf9a-7d98922d6b54", 
             "name": "Alexander Greenhough", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -9192,46 +4584,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BIOC", 
-            "name": "BIOC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "name": "Kevin Gaston", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -9264,38 +4616,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "name": "Kevin Gaston", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -9320,38 +4640,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "name": "Kevin Gaston", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -9373,14 +4661,6 @@
             "n2": "cancer:cell", 
             "type": "personConcept", 
             "value": 10.705533773838408
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
         }
     }, 
     {
@@ -9393,26 +4673,10 @@
     }, 
     {
         "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "7dfed7d5-6d9a-4b00-8e21-ae23df9b7470", 
             "name": "Nobue Itasaki", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -9449,34 +4713,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "f180f1a5-1c9b-4438-929d-ef4f5363e64c", 
             "name": "Catherine D Nobes", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -9504,38 +4744,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "f180f1a5-1c9b-4438-929d-ef4f5363e64c", 
-            "name": "Catherine D Nobes", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -9560,38 +4768,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "f180f1a5-1c9b-4438-929d-ef4f5363e64c", 
-            "name": "Catherine D Nobes", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -9613,46 +4789,6 @@
             "n2": "cancer:cell", 
             "type": "personConcept", 
             "value": 10.09151498112135
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BIOC", 
-            "name": "BIOC", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "f180f1a5-1c9b-4438-929d-ef4f5363e64c", 
-            "name": "Catherine D Nobes", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -9689,14 +4825,6 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
             "id": "PSYC", 
             "name": "PSYC", 
             "size": 2, 
@@ -9705,26 +4833,10 @@
     }, 
     {
         "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
             "name": "Risto A Kauppinen", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -9760,35 +4872,27 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
+        "link": {
+            "n1": "BMSP", 
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "type": "orgPerson", 
+            "value": 1
         }
     }, 
     {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+        "link": {
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
+            "n2": "cancer:cell", 
+            "type": "personConcept", 
+            "value": 7.293282217663242
         }
     }, 
     {
-        "node": {
-            "id": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "name": "Risto A Kauppinen", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
+        "link": {
+            "n1": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
+            "n2": "cancer:cell", 
+            "type": "personConcept", 
+            "value": 11.153662887870194
         }
     }, 
     {
@@ -9816,38 +4920,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "name": "Risto A Kauppinen", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -9872,38 +4944,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "name": "Risto A Kauppinen", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -9925,94 +4965,6 @@
             "n2": "cancer:cell", 
             "type": "personConcept", 
             "value": 11.153662887870194
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "name": "Risto A Kauppinen", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 11.153662887870194
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "name": "Claire M Perks", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -10037,46 +4989,6 @@
             "n2": "cancer:cell", 
             "type": "personConcept", 
             "value": 50.3777859770337
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMST", 
-            "name": "BMST", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "name": "Claire M Perks", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -10112,38 +5024,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "name": "Claire M Perks", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -10169,42 +5049,10 @@
     }, 
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMST", 
-            "name": "BMST", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
             "id": "30f7b6ff-b48b-4e4c-ba00-85bd1c7eaf77", 
             "name": "Daniel J Asby", 
             "size": 2, 
             "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
@@ -10240,46 +5088,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMST", 
-            "name": "BMST", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "name": "Craig A Mcardle", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -10312,38 +5120,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "name": "Craig A Mcardle", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -10368,38 +5144,6 @@
         }
     }, 
     {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "name": "Craig A Mcardle", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
-        }
-    }, 
-    {
         "link": {
             "n1": "BMSP", 
             "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
@@ -10421,38 +5165,6 @@
             "n2": "cancer:cell", 
             "type": "personConcept", 
             "value": 10.787812395596042
-        }
-    }, 
-    {
-        "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
-            "type": "org"
-        }
-    }, 
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "name": "Craig A Mcardle", 
-            "size": 2, 
-            "type": "person"
-        }
-    }, 
-    {
-        "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
-            "type": "bigram"
         }
     }, 
     {
