@@ -203,7 +203,7 @@ function gv_d3_graph(graph, gname, conf) {
 				.attr("xlink:href", function(d){
 					return conf[d.type].nodeVal
 				})
-				.attr("x", -50)
+				.attr("x", -100)
 				.attr("y", -100)
 				//.attr("width", 16)
 				.attr("height", function (d) {
@@ -218,7 +218,7 @@ function gv_d3_graph(graph, gname, conf) {
 					}
 					return imgLink
 				})
-				.attr("x", -50)
+				.attr("x", -100)
 				.attr("y", -100)
 				//.attr("width", 16)
 				.attr("height", function (d) {
@@ -239,7 +239,7 @@ function gv_d3_graph(graph, gname, conf) {
 			if (conf[d.type][0]=='circle'){
             	return d.size
 			}else{
-				return d.size*1.1
+				return d.size*0.7
 			}
         })
         .attr("dy", ".35em")
