@@ -83,6 +83,7 @@ $(document).ready(function() {
 	<div class="container">
 		<div class="row">
 			<div class="col-9 card">
+				<div id = 'graph_search_div'></div>
 	  			<div class="card-block" id='graph_view_div' style="height:800px" ></div>
 			</div>
 			<div class="col-3 card">
@@ -117,7 +118,7 @@ var axon_conf={
 	'personPub':{'linkCol':'orange'},
 }
 
-gv_graph_view_run('axon_demo.json','graph_view_div',axon_conf,'graph_controller_div')
+gv_graph_view_run('axon_demo.json','graph_view_div',axon_conf,'graph_controller_div','graph_search_div')
 </script>
 
 </body>

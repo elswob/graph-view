@@ -366,6 +366,11 @@ function gv_d3_graph(graph, gname, conf) {
     // }
 }
 
+function gv_searcher(search_div){
+	var div = document.getElementById(search_div);
+	div.innerHTML += '<div class="input-group"><input type="text" class="form-control" placeholder="Search for..."><span class="input-group-btn"><button class="btn btn-secondary" type="button">Go!</button></span></div>';
+}
+
 function gv_graph_controller(controller_div){
 	console.log('creating controller_div')
 	var div = document.getElementById(controller_div);
@@ -413,11 +418,12 @@ function gv_graph_controller(controller_div){
 	  } );
 }
 
-function gv_graph_view_run(jsonData,element_id,conf,controller_div){
+function gv_graph_view_run(jsonData,element_id,conf,controller_div,search_div){
 	g = gv_transform_data(jsonData);
 	setTimeout(function(){
 		console.log(g);
 		gv_d3_graph(g,element_id,conf)
 		gv_graph_controller(controller_div)
+		gv_searcher(search_div)
 	}, 300);
 }
