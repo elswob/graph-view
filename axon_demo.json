@@ -1,5193 +1,1685 @@
 [
     {
         "node": {
-            "id": "BMSP", 
-            "name": "BMSP", 
-            "size": 2, 
+            "id": "BMSP",
+            "name": "BMSP",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "name": "Benjamin L Elsworth", 
-            "size": 2, 
-            "type": "person"
+            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "name": "Benjamin L Elsworth",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7", 
-            "name": "Niall J Twomey", 
-            "size": 2, 
-            "type": "person"
+            "id": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7",
+            "name": "Niall J Twomey",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "publicly", 
-            "name": "publicly", 
-            "size": 1, 
+            "id": "publicly",
+            "name": "publicly",
+            "size": 1,
             "type": "type"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMSP",
+            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "publicly",
+            "type": "personConcept",
             "value": 7.7594507517174005
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7", 
-            "n2": "publicly", 
-            "type": "personConcept", 
+            "n1": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7",
+            "n2": "publicly",
+            "type": "personConcept",
             "value": 7.064492734175287
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly", 
-            "type": "personConcept", 
-            "value": 7.7594507517174005
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7", 
-            "n2": "publicly", 
-            "type": "personConcept", 
-            "value": 7.064492734175287
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "9510fe63-edfb-4b86-a338-fcda5a0a27c7", 
-            "name": "Mark O Winfield", 
-            "size": 2, 
-            "type": "person"
+            "id": "9510fe63-edfb-4b86-a338-fcda5a0a27c7",
+            "name": "Mark O Winfield",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "putative", 
-            "name": "putative", 
-            "size": 1, 
+            "id": "putative",
+            "name": "putative",
+            "size": 1,
             "type": "type"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "putative",
+            "type": "personConcept",
             "value": 8.515700160653214
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "9510fe63-edfb-4b86-a338-fcda5a0a27c7", 
-            "n2": "putative", 
-            "type": "personConcept", 
+            "n1": "9510fe63-edfb-4b86-a338-fcda5a0a27c7",
+            "n2": "putative",
+            "type": "personConcept",
             "value": 11.078313524516398
         }
-    }, 
+    },
     {
         "node": {
-            "id": "BISC", 
-            "name": "BISC", 
-            "size": 2, 
+            "id": "BISC",
+            "name": "BISC",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BISC",
+            "n2": "9510fe63-edfb-4b86-a338-fcda5a0a27c7",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "BISC", 
-            "n2": "9510fe63-edfb-4b86-a338-fcda5a0a27c7", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9510fe63-edfb-4b86-a338-fcda5a0a27c7", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 11.078313524516398
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "6b7f2f52-058a-4806-aee2-e0d87eaf63e9", 
-            "name": "A M Przewieslikallen", 
-            "size": 2, 
+            "id": "6b7f2f52-058a-4806-aee2-e0d87eaf63e9",
+            "name": "A M Przewieslikallen",
+            "size": 2,
             "type": "person"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BISC",
+            "n2": "6b7f2f52-058a-4806-aee2-e0d87eaf63e9",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BISC", 
-            "n2": "6b7f2f52-058a-4806-aee2-e0d87eaf63e9", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "6b7f2f52-058a-4806-aee2-e0d87eaf63e9", 
-            "n2": "putative", 
-            "type": "personConcept", 
+            "n1": "6b7f2f52-058a-4806-aee2-e0d87eaf63e9",
+            "n2": "putative",
+            "type": "personConcept",
             "value": 15.199282921717614
         }
-    }, 
+    },
     {
         "node": {
-            "id": "4fd2d6ef-3986-4566-97e4-7ae7db296525", 
-            "name": "Philip C J Donoghue", 
-            "size": 2, 
-            "type": "person"
+            "id": "4fd2d6ef-3986-4566-97e4-7ae7db296525",
+            "name": "Philip C J Donoghue",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "4fd2d6ef-3986-4566-97e4-7ae7db296525", 
-            "n2": "putative", 
-            "type": "personConcept", 
+            "n1": "4fd2d6ef-3986-4566-97e4-7ae7db296525",
+            "n2": "putative",
+            "type": "personConcept",
             "value": 10.430626090384955
         }
-    }, 
+    },
     {
         "node": {
-            "id": "GELY", 
-            "name": "GELY", 
-            "size": 2, 
+            "id": "GELY",
+            "name": "GELY",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "GELY",
+            "n2": "4fd2d6ef-3986-4566-97e4-7ae7db296525",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "GELY", 
-            "n2": "4fd2d6ef-3986-4566-97e4-7ae7db296525", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "4fd2d6ef-3986-4566-97e4-7ae7db296525", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 10.430626090384955
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "6a371317-6d86-4273-bf1f-8a707a9e3102", 
-            "name": "Paul A Wilkinson", 
-            "size": 2, 
-            "type": "person"
+            "id": "6a371317-6d86-4273-bf1f-8a707a9e3102",
+            "name": "Paul A Wilkinson",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BISC",
+            "n2": "6a371317-6d86-4273-bf1f-8a707a9e3102",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BISC", 
-            "n2": "6a371317-6d86-4273-bf1f-8a707a9e3102", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "6a371317-6d86-4273-bf1f-8a707a9e3102", 
-            "n2": "putative", 
-            "type": "personConcept", 
+            "n1": "6a371317-6d86-4273-bf1f-8a707a9e3102",
+            "n2": "putative",
+            "type": "personConcept",
             "value": 12.157390760389438
         }
-    }, 
+    },
     {
         "node": {
-            "id": "7fcab681-af61-4e83-b5e0-9c41e4f08739", 
-            "name": "Amanda J Burridge", 
-            "size": 2, 
-            "type": "person"
+            "id": "7fcab681-af61-4e83-b5e0-9c41e4f08739",
+            "name": "Amanda J Burridge",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BISC",
+            "n2": "7fcab681-af61-4e83-b5e0-9c41e4f08739",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BISC", 
-            "n2": "7fcab681-af61-4e83-b5e0-9c41e4f08739", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "7fcab681-af61-4e83-b5e0-9c41e4f08739", 
-            "n2": "putative", 
-            "type": "personConcept", 
+            "n1": "7fcab681-af61-4e83-b5e0-9c41e4f08739",
+            "n2": "putative",
+            "type": "personConcept",
             "value": 11.744727494896694
         }
-    }, 
+    },
     {
         "node": {
-            "id": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2", 
-            "name": "Gary L A Barker", 
-            "size": 2, 
-            "type": "person"
+            "id": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2",
+            "name": "Gary L A Barker",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BISC",
+            "n2": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BISC", 
-            "n2": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2", 
-            "n2": "putative", 
-            "type": "personConcept", 
+            "n1": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2",
+            "n2": "putative",
+            "type": "personConcept",
             "value": 8.954677021213342
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.954677021213342
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "1a5e9a2b-b02a-40f8-a227-b1b7784910d2", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.954677021213342
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "59a484d6-0c9c-4b99-bf0f-4699c7d61da1", 
-            "name": "Jane A Coghill", 
-            "size": 2, 
-            "type": "person"
+            "id": "59a484d6-0c9c-4b99-bf0f-4699c7d61da1",
+            "name": "Jane A Coghill",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BISC",
+            "n2": "59a484d6-0c9c-4b99-bf0f-4699c7d61da1",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BISC", 
-            "n2": "59a484d6-0c9c-4b99-bf0f-4699c7d61da1", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "59a484d6-0c9c-4b99-bf0f-4699c7d61da1", 
-            "n2": "putative", 
-            "type": "personConcept", 
+            "n1": "59a484d6-0c9c-4b99-bf0f-4699c7d61da1",
+            "n2": "putative",
+            "type": "personConcept",
             "value": 10.085656842880558
         }
-    }, 
+    },
     {
         "node": {
-            "id": "19982d31-4c91-49a9-b797-80e967806092", 
-            "name": "Emma S J Robinson", 
-            "size": 2, 
-            "type": "person"
+            "id": "19982d31-4c91-49a9-b797-80e967806092",
+            "name": "Emma S J Robinson",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "19982d31-4c91-49a9-b797-80e967806092", 
-            "n2": "putative", 
-            "type": "personConcept", 
+            "n1": "19982d31-4c91-49a9-b797-80e967806092",
+            "n2": "putative",
+            "type": "personConcept",
             "value": 8.34582345812204
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "19982d31-4c91-49a9-b797-80e967806092", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.34582345812204
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "name": "Keith J Edwards", 
-            "size": 2, 
-            "type": "person"
+            "id": "b18118c3-c35f-4e5b-aa35-c70bb1644aae",
+            "name": "Keith J Edwards",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BISC",
+            "n2": "b18118c3-c35f-4e5b-aa35-c70bb1644aae",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BISC", 
-            "n2": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "n2": "putative", 
-            "type": "personConcept", 
+            "n1": "b18118c3-c35f-4e5b-aa35-c70bb1644aae",
+            "n2": "putative",
+            "type": "personConcept",
             "value": 7.667561540084395
         }
-    }, 
+    },
     {
         "node": {
-            "id": "CABI", 
-            "name": "CABI", 
-            "size": 2, 
+            "id": "CABI",
+            "name": "CABI",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "CABI",
+            "n2": "b18118c3-c35f-4e5b-aa35-c70bb1644aae",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "CABI", 
-            "n2": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 7.667561540084395
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 7.667561540084395
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 7.667561540084395
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 8.515700160653214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b18118c3-c35f-4e5b-aa35-c70bb1644aae", 
-            "n2": "putative", 
-            "type": "personConcept", 
-            "value": 7.667561540084395
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "name": "Davide Pisani", 
-            "size": 2, 
-            "type": "person"
+            "id": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4",
+            "name": "Davide Pisani",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "nematode", 
-            "name": "nematode", 
-            "size": 1, 
+            "id": "nematode",
+            "name": "nematode",
+            "size": 1,
             "type": "type"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "nematode",
+            "type": "personConcept",
             "value": 7.995678626217358
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "n2": "nematode", 
-            "type": "personConcept", 
+            "n1": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4",
+            "n2": "nematode",
+            "type": "personConcept",
             "value": 10.319664486585436
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "GELY",
+            "n2": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "GELY", 
-            "n2": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "type": "orgPerson", 
+            "n1": "BISC",
+            "n2": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 10.319664486585436
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BISC", 
-            "n2": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 10.319664486585436
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "c2757edd-b165-419b-92d2-d99a345099ef", 
-            "name": "Hannah Rose", 
-            "size": 2, 
-            "type": "person"
+            "id": "c2757edd-b165-419b-92d2-d99a345099ef",
+            "name": "Hannah Rose",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "CABI",
+            "n2": "c2757edd-b165-419b-92d2-d99a345099ef",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "CABI", 
-            "n2": "c2757edd-b165-419b-92d2-d99a345099ef", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c2757edd-b165-419b-92d2-d99a345099ef", 
-            "n2": "nematode", 
-            "type": "personConcept", 
+            "n1": "c2757edd-b165-419b-92d2-d99a345099ef",
+            "n2": "nematode",
+            "type": "personConcept",
             "value": 25.2335871528876
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c2757edd-b165-419b-92d2-d99a345099ef", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 25.2335871528876
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "511e20f7-37c6-4f00-856d-bac1839c38a4", 
-            "name": "Josephine G Walker", 
-            "size": 2, 
-            "type": "person"
+            "id": "511e20f7-37c6-4f00-856d-bac1839c38a4",
+            "name": "Josephine G Walker",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "CABI",
+            "n2": "511e20f7-37c6-4f00-856d-bac1839c38a4",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "CABI", 
-            "n2": "511e20f7-37c6-4f00-856d-bac1839c38a4", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "511e20f7-37c6-4f00-856d-bac1839c38a4", 
-            "n2": "nematode", 
-            "type": "personConcept", 
+            "n1": "511e20f7-37c6-4f00-856d-bac1839c38a4",
+            "n2": "nematode",
+            "type": "personConcept",
             "value": 8.581698708680255
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMSP",
+            "n2": "511e20f7-37c6-4f00-856d-bac1839c38a4",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "511e20f7-37c6-4f00-856d-bac1839c38a4", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "511e20f7-37c6-4f00-856d-bac1839c38a4", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 8.581698708680255
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "name": "Mark Viney", 
-            "size": 2, 
-            "type": "person"
+            "id": "e329ffa9-fc94-4139-9333-83cc6be44809",
+            "name": "Mark Viney",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BISC",
+            "n2": "e329ffa9-fc94-4139-9333-83cc6be44809",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BISC", 
-            "n2": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "nematode", 
-            "type": "personConcept", 
+            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809",
+            "n2": "nematode",
+            "type": "personConcept",
             "value": 49.00043451177402
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 49.00043451177402
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 49.00043451177402
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 49.00043451177402
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 7.995678626217358
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "nematode", 
-            "type": "personConcept", 
-            "value": 49.00043451177402
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "dddc368f-44d4-4996-90df-deba1c624d02", 
-            "name": "Esther Walton", 
-            "size": 2, 
-            "type": "person"
+            "id": "dddc368f-44d4-4996-90df-deba1c624d02",
+            "name": "Esther Walton",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "annotate", 
-            "name": "annotate", 
-            "size": 1, 
+            "id": "annotate",
+            "name": "annotate",
+            "size": 1,
             "type": "type"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMSP",
+            "n2": "dddc368f-44d4-4996-90df-deba1c624d02",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "dddc368f-44d4-4996-90df-deba1c624d02", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "annotate",
+            "type": "personConcept",
             "value": 8.123782159408357
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "dddc368f-44d4-4996-90df-deba1c624d02", 
-            "n2": "annotate", 
-            "type": "personConcept", 
+            "n1": "dddc368f-44d4-4996-90df-deba1c624d02",
+            "n2": "annotate",
+            "type": "personConcept",
             "value": 7.090443970758825
         }
-    }, 
+    },
     {
         "node": {
-            "id": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "name": "Tilo Burghardt", 
-            "size": 2, 
-            "type": "person"
+            "id": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b",
+            "name": "Tilo Burghardt",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "n2": "annotate", 
-            "type": "personConcept", 
+            "n1": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b",
+            "n2": "annotate",
+            "type": "personConcept",
             "value": 11.481486060122112
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 11.481486060122112
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 11.481486060122112
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 11.481486060122112
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 11.481486060122112
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "COSC", 
-            "name": "COSC", 
-            "size": 2, 
+            "id": "COSC",
+            "name": "COSC",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "COSC",
+            "n2": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "COSC", 
-            "n2": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "70f598b4-d736-4ebe-b1e4-d0e8ba97aa2b", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 11.481486060122112
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "name": "Majid Mirmehdi", 
-            "size": 2, 
-            "type": "person"
+            "id": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2",
+            "name": "Majid Mirmehdi",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "n2": "annotate", 
-            "type": "personConcept", 
+            "n1": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2",
+            "n2": "annotate",
+            "type": "personConcept",
             "value": 8.686132779630846
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "COSC",
+            "n2": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.686132779630846
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.686132779630846
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.686132779630846
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "COSC", 
-            "n2": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.686132779630846
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.123782159408357
-        }
-    }, 
-    {
-        "link": {
-            "n1": "93fe13c3-06b3-4797-a8fe-9fd6d2dc5dc2", 
-            "n2": "annotate", 
-            "type": "personConcept", 
-            "value": 8.686132779630846
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "publicly:available", 
-            "name": "publicly:available", 
-            "size": 1, 
+            "id": "publicly:available",
+            "name": "publicly:available",
+            "size": 1,
             "type": "bigram"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "publicly:available",
+            "type": "personConcept",
             "value": 11.342944147142896
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
+            "n1": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7",
+            "n2": "publicly:available",
+            "type": "personConcept",
             "value": 10.489454989793387
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b41631e9-a8ed-412d-b3b7-fa18feecc9e7", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 10.489454989793387
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "9d424135-ad4d-485d-8607-648c8890b4fa", 
-            "name": "Paul D Bates", 
-            "size": 2, 
-            "type": "person"
+            "id": "9d424135-ad4d-485d-8607-648c8890b4fa",
+            "name": "Paul D Bates",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "CABI",
+            "n2": "9d424135-ad4d-485d-8607-648c8890b4fa",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "CABI", 
-            "n2": "9d424135-ad4d-485d-8607-648c8890b4fa", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9d424135-ad4d-485d-8607-648c8890b4fa", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
+            "n1": "9d424135-ad4d-485d-8607-648c8890b4fa",
+            "n2": "publicly:available",
+            "type": "personConcept",
             "value": 7.145086977692144
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9d424135-ad4d-485d-8607-648c8890b4fa", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 7.145086977692144
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9d424135-ad4d-485d-8607-648c8890b4fa", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 7.145086977692144
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "GEOG", 
-            "name": "GEOG", 
-            "size": 2, 
+            "id": "GEOG",
+            "name": "GEOG",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "GEOG",
+            "n2": "9d424135-ad4d-485d-8607-648c8890b4fa",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "GEOG", 
-            "n2": "9d424135-ad4d-485d-8607-648c8890b4fa", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9d424135-ad4d-485d-8607-648c8890b4fa", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 7.145086977692144
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "name": "Peter A Flach", 
-            "size": 2, 
-            "type": "person"
+            "id": "a7f5720a-024e-48a2-9cc8-c3d673798c20",
+            "name": "Peter A Flach",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "COSC",
+            "n2": "a7f5720a-024e-48a2-9cc8-c3d673798c20",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "COSC", 
-            "n2": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
+            "n1": "a7f5720a-024e-48a2-9cc8-c3d673798c20",
+            "n2": "publicly:available",
+            "type": "personConcept",
             "value": 7.575118363368933
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "CABI",
+            "n2": "a7f5720a-024e-48a2-9cc8-c3d673798c20",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 7.575118363368933
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "CABI", 
-            "n2": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 7.575118363368933
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 7.575118363368933
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "a7f5720a-024e-48a2-9cc8-c3d673798c20", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 7.575118363368933
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "15510a18-26a2-4200-ba4f-1dd1997dddf6", 
-            "name": "M U B St Pourcain", 
-            "size": 2, 
-            "type": "person"
+            "id": "15510a18-26a2-4200-ba4f-1dd1997dddf6",
+            "name": "M U B St Pourcain",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMSP",
+            "n2": "15510a18-26a2-4200-ba4f-1dd1997dddf6",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "15510a18-26a2-4200-ba4f-1dd1997dddf6", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
-            "value": 11.342944147142896
-        }
-    }, 
-    {
-        "link": {
-            "n1": "15510a18-26a2-4200-ba4f-1dd1997dddf6", 
-            "n2": "publicly:available", 
-            "type": "personConcept", 
+            "n1": "15510a18-26a2-4200-ba4f-1dd1997dddf6",
+            "n2": "publicly:available",
+            "type": "personConcept",
             "value": 8.334419008982048
         }
-    }, 
+    },
     {
         "node": {
-            "id": "parasitic:nematode", 
-            "name": "parasitic:nematode", 
-            "size": 1, 
+            "id": "parasitic:nematode",
+            "name": "parasitic:nematode",
+            "size": 1,
             "type": "bigram"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BISC", 
-            "n2": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "parasitic:nematode",
+            "type": "personConcept",
             "value": 8.510041520575164
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
+            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809",
+            "n2": "parasitic:nematode",
+            "type": "personConcept",
             "value": 38.39254497678533
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
-            "value": 8.510041520575164
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
-            "value": 38.39254497678533
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
-            "value": 8.510041520575164
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
-            "value": 38.39254497678533
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
-            "value": 8.510041520575164
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
-            "value": 38.39254497678533
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
-            "value": 8.510041520575164
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e329ffa9-fc94-4139-9333-83cc6be44809", 
-            "n2": "parasitic:nematode", 
-            "type": "personConcept", 
-            "value": 38.39254497678533
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "BIOC", 
-            "name": "BIOC", 
-            "size": 2, 
+            "id": "BIOC",
+            "name": "BIOC",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "e6ebec41-c3f0-4f5d-abf5-6bf8bc2c7e89", 
-            "name": "Richard B Sessions", 
-            "size": 2, 
-            "type": "person"
+            "id": "e6ebec41-c3f0-4f5d-abf5-6bf8bc2c7e89",
+            "name": "Richard B Sessions",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "protein:sequence", 
-            "name": "protein:sequence", 
-            "size": 1, 
+            "id": "protein:sequence",
+            "name": "protein:sequence",
+            "size": 1,
             "type": "bigram"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BIOC",
+            "n2": "e6ebec41-c3f0-4f5d-abf5-6bf8bc2c7e89",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BIOC", 
-            "n2": "e6ebec41-c3f0-4f5d-abf5-6bf8bc2c7e89", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "protein:sequence",
+            "type": "personConcept",
             "value": 8.3767507096021
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "e6ebec41-c3f0-4f5d-abf5-6bf8bc2c7e89", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
+            "n1": "e6ebec41-c3f0-4f5d-abf5-6bf8bc2c7e89",
+            "n2": "protein:sequence",
+            "type": "personConcept",
             "value": 8.605548319173783
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e6ebec41-c3f0-4f5d-abf5-6bf8bc2c7e89", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.605548319173783
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e6ebec41-c3f0-4f5d-abf5-6bf8bc2c7e89", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.605548319173783
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "CHEM", 
-            "name": "CHEM", 
-            "size": 2, 
+            "id": "CHEM",
+            "name": "CHEM",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "810da320-8048-4d2d-b71b-418c64011ba7", 
-            "name": "Fabio Parmeggiani", 
-            "size": 2, 
-            "type": "person"
+            "id": "810da320-8048-4d2d-b71b-418c64011ba7",
+            "name": "Fabio Parmeggiani",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "CHEM",
+            "n2": "810da320-8048-4d2d-b71b-418c64011ba7",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "CHEM", 
-            "n2": "810da320-8048-4d2d-b71b-418c64011ba7", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "810da320-8048-4d2d-b71b-418c64011ba7", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
+            "n1": "810da320-8048-4d2d-b71b-418c64011ba7",
+            "n2": "protein:sequence",
+            "type": "personConcept",
             "value": 11.844663962534938
         }
-    }, 
+    },
     {
         "node": {
-            "id": "123a5a8b-ffd1-4bdf-9510-8b2d892cfc2c", 
-            "name": "Gail J Bartlett", 
-            "size": 2, 
-            "type": "person"
+            "id": "123a5a8b-ffd1-4bdf-9510-8b2d892cfc2c",
+            "name": "Gail J Bartlett",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "CHEM",
+            "n2": "123a5a8b-ffd1-4bdf-9510-8b2d892cfc2c",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "CHEM", 
-            "n2": "123a5a8b-ffd1-4bdf-9510-8b2d892cfc2c", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "123a5a8b-ffd1-4bdf-9510-8b2d892cfc2c", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
+            "n1": "123a5a8b-ffd1-4bdf-9510-8b2d892cfc2c",
+            "n2": "protein:sequence",
+            "type": "personConcept",
             "value": 11.03905380426617
         }
-    }, 
+    },
     {
         "node": {
-            "id": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
-            "name": "Josephine C Adams", 
-            "size": 2, 
-            "type": "person"
+            "id": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f",
+            "name": "Josephine C Adams",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BIOC",
+            "n2": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BIOC", 
-            "n2": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
+            "n1": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f",
+            "n2": "protein:sequence",
+            "type": "personConcept",
             "value": 7.123205023799299
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 7.123205023799299
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 7.123205023799299
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "182d22e2-d9a2-4b95-9cf0-5ce91da1266f", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 7.123205023799299
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "5b99f8ef-cc5c-44ea-a338-42341ab7d17d", 
-            "name": "Chris W Wood", 
-            "size": 2, 
-            "type": "person"
+            "id": "5b99f8ef-cc5c-44ea-a338-42341ab7d17d",
+            "name": "Chris W Wood",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "CHEM",
+            "n2": "5b99f8ef-cc5c-44ea-a338-42341ab7d17d",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "CHEM", 
-            "n2": "5b99f8ef-cc5c-44ea-a338-42341ab7d17d", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "5b99f8ef-cc5c-44ea-a338-42341ab7d17d", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
+            "n1": "5b99f8ef-cc5c-44ea-a338-42341ab7d17d",
+            "n2": "protein:sequence",
+            "type": "personConcept",
             "value": 9.11069829749369
         }
-    }, 
+    },
     {
         "node": {
-            "id": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "name": "Dek N Woolfson", 
-            "size": 2, 
-            "type": "person"
+            "id": "e2525190-924f-4510-8a9f-873f393b7870",
+            "name": "Dek N Woolfson",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "CHEM",
+            "n2": "e2525190-924f-4510-8a9f-873f393b7870",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "CHEM", 
-            "n2": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
+            "n1": "e2525190-924f-4510-8a9f-873f393b7870",
+            "n2": "protein:sequence",
+            "type": "personConcept",
             "value": 19.1073489661227
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "NSQI", 
-            "name": "NSQI", 
-            "size": 2, 
+            "id": "NSQI",
+            "name": "NSQI",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "NSQI",
+            "n2": "e2525190-924f-4510-8a9f-873f393b7870",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "NSQI", 
-            "n2": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 8.3767507096021
-        }
-    }, 
-    {
-        "link": {
-            "n1": "e2525190-924f-4510-8a9f-873f393b7870", 
-            "n2": "protein:sequence", 
-            "type": "personConcept", 
-            "value": 19.1073489661227
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "3fd7234d-8a31-4968-b7a0-42c3d60c8cd1", 
-            "name": "Charlotte Atkinson", 
-            "size": 2, 
-            "type": "person"
+            "id": "3fd7234d-8a31-4968-b7a0-42c3d60c8cd1",
+            "name": "Charlotte Atkinson",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "breast:cancer", 
-            "name": "breast:cancer", 
-            "size": 1, 
+            "id": "breast:cancer",
+            "name": "breast:cancer",
+            "size": 1,
             "type": "bigram"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 10.269217724333611
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "3fd7234d-8a31-4968-b7a0-42c3d60c8cd1", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "3fd7234d-8a31-4968-b7a0-42c3d60c8cd1",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 41.6345120151091
         }
-    }, 
+    },
     {
         "node": {
-            "id": "ca01d490-0cb5-41ea-b4d8-9e1263cd6d30", 
-            "name": "Maciej Klemm", 
-            "size": 2, 
-            "type": "person"
+            "id": "ca01d490-0cb5-41ea-b4d8-9e1263cd6d30",
+            "name": "Maciej Klemm",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "ca01d490-0cb5-41ea-b4d8-9e1263cd6d30", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "ca01d490-0cb5-41ea-b4d8-9e1263cd6d30",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 59.571865205971214
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "ca01d490-0cb5-41ea-b4d8-9e1263cd6d30", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 59.571865205971214
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "ca01d490-0cb5-41ea-b4d8-9e1263cd6d30", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 59.571865205971214
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
-            "name": "Richard M Martin", 
-            "size": 2, 
-            "type": "person"
+            "id": "dcaf8c56-b65e-4c55-8622-4936b4437365",
+            "name": "Richard M Martin",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMSP",
+            "n2": "dcaf8c56-b65e-4c55-8622-4936b4437365",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "dcaf8c56-b65e-4c55-8622-4936b4437365",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 8.490797477668897
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 8.490797477668897
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 8.490797477668897
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "dcaf8c56-b65e-4c55-8622-4936b4437365", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 8.490797477668897
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "BMST", 
-            "name": "BMST", 
-            "size": 2, 
+            "id": "BMST",
+            "name": "BMST",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "name": "Jeffrey M P Holly", 
-            "size": 2, 
-            "type": "person"
+            "id": "78c066a8-187f-42c8-8c28-adfb6777cb97",
+            "name": "Jeffrey M P Holly",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMST",
+            "n2": "78c066a8-187f-42c8-8c28-adfb6777cb97",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMST", 
-            "n2": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "78c066a8-187f-42c8-8c28-adfb6777cb97",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 44.17587416608345
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 44.17587416608345
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 44.17587416608345
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "d29e7842-e9a3-4826-bfa5-37105cef192d", 
-            "name": "Maryam Afzal", 
-            "size": 2, 
+            "id": "d29e7842-e9a3-4826-bfa5-37105cef192d",
+            "name": "Maryam Afzal",
+            "size": 2,
             "type": "person"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMST",
+            "n2": "d29e7842-e9a3-4826-bfa5-37105cef192d",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMST", 
-            "n2": "d29e7842-e9a3-4826-bfa5-37105cef192d", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "d29e7842-e9a3-4826-bfa5-37105cef192d", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "d29e7842-e9a3-4826-bfa5-37105cef192d",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 7.8996294548824375
         }
-    }, 
+    },
     {
         "node": {
-            "id": "662ec2f1-e8a7-4d56-81b2-7d97c1335cb4", 
-            "name": "Shelley Potter", 
-            "size": 2, 
-            "type": "person"
+            "id": "662ec2f1-e8a7-4d56-81b2-7d97c1335cb4",
+            "name": "Shelley Potter",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "662ec2f1-e8a7-4d56-81b2-7d97c1335cb4", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "662ec2f1-e8a7-4d56-81b2-7d97c1335cb4",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 14.341988603342887
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMSP",
+            "n2": "662ec2f1-e8a7-4d56-81b2-7d97c1335cb4",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "662ec2f1-e8a7-4d56-81b2-7d97c1335cb4", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "662ec2f1-e8a7-4d56-81b2-7d97c1335cb4", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 14.341988603342887
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "name": "Kevin Gaston", 
-            "size": 2, 
-            "type": "person"
+            "id": "7648cbbf-2a1d-47f7-98df-b83731400558",
+            "name": "Kevin Gaston",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BIOC",
+            "n2": "7648cbbf-2a1d-47f7-98df-b83731400558",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BIOC", 
-            "n2": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "7648cbbf-2a1d-47f7-98df-b83731400558",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 7.636388020107856
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 7.636388020107856
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 7.636388020107856
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "name": "Jenny L Donovan", 
-            "size": 2, 
-            "type": "person"
+            "id": "df86fe2c-2824-484a-bcb0-75982f73da25",
+            "name": "Jenny L Donovan",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMSP",
+            "n2": "df86fe2c-2824-484a-bcb0-75982f73da25",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 10.051587034221399
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.051587034221399
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.051587034221399
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.051587034221399
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "df86fe2c-2824-484a-bcb0-75982f73da25", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.051587034221399
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "name": "Ian J Craddock", 
-            "size": 2, 
-            "type": "person"
+            "id": "fa1cff66-7b56-49fb-a0bd-64c163c3100b",
+            "name": "Ian J Craddock",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "fa1cff66-7b56-49fb-a0bd-64c163c3100b",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 74.88605664769317
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 74.88605664769317
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 74.88605664769317
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 74.88605664769317
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "fa1cff66-7b56-49fb-a0bd-64c163c3100b", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 74.88605664769317
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "bdfa7ca7-b3a3-4dc2-bd6c-d3967d3b1da2", 
-            "name": "Dallan B Byrne", 
-            "size": 2, 
-            "type": "person"
+            "id": "bdfa7ca7-b3a3-4dc2-bd6c-d3967d3b1da2",
+            "name": "Dallan B Byrne",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "bdfa7ca7-b3a3-4dc2-bd6c-d3967d3b1da2", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "bdfa7ca7-b3a3-4dc2-bd6c-d3967d3b1da2",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 12.924453038607469
         }
-    }, 
+    },
     {
         "node": {
-            "id": "17410615-6e27-4a42-92c6-7ad49185237d", 
-            "name": "Kathreena M Kurian", 
-            "size": 2, 
-            "type": "person"
+            "id": "17410615-6e27-4a42-92c6-7ad49185237d",
+            "name": "Kathreena M Kurian",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "17410615-6e27-4a42-92c6-7ad49185237d", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "17410615-6e27-4a42-92c6-7ad49185237d",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 13.188424994129406
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMST",
+            "n2": "17410615-6e27-4a42-92c6-7ad49185237d",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMST", 
-            "n2": "17410615-6e27-4a42-92c6-7ad49185237d", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "17410615-6e27-4a42-92c6-7ad49185237d", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 13.188424994129406
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "17410615-6e27-4a42-92c6-7ad49185237d", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 13.188424994129406
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "name": "Claire M Perks", 
-            "size": 2, 
-            "type": "person"
+            "id": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16",
+            "name": "Claire M Perks",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 40.5003129173816
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMST",
+            "n2": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMST", 
-            "n2": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 40.5003129173816
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 40.5003129173816
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "MATH", 
-            "name": "MATH", 
-            "size": 2, 
+            "id": "MATH",
+            "name": "MATH",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
-            "name": "Christophe Andrieu", 
-            "size": 2, 
-            "type": "person"
+            "id": "c8ca0164-8cd7-4fff-a864-8c6c6783a161",
+            "name": "Christophe Andrieu",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "MATH",
+            "n2": "c8ca0164-8cd7-4fff-a864-8c6c6783a161",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "MATH", 
-            "n2": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "c8ca0164-8cd7-4fff-a864-8c6c6783a161",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 7.333482019445119
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 7.333482019445119
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 7.333482019445119
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c8ca0164-8cd7-4fff-a864-8c6c6783a161", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 7.333482019445119
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "name": "Craig A Mcardle", 
-            "size": 2, 
-            "type": "person"
+            "id": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7",
+            "name": "Craig A Mcardle",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMST",
+            "n2": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMST", 
-            "n2": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
+            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7",
+            "n2": "breast:cancer",
+            "type": "personConcept",
             "value": 10.132532512140948
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.132532512140948
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.132532512140948
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.269217724333611
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "n2": "breast:cancer", 
-            "type": "personConcept", 
-            "value": 10.132532512140948
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523", 
-            "name": "Daniel John Lawson", 
-            "size": 2, 
-            "type": "person"
+            "id": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523",
+            "name": "Daniel John Lawson",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "available:http", 
-            "name": "available:http", 
-            "size": 1, 
+            "id": "available:http",
+            "name": "available:http",
+            "size": 1,
             "type": "bigram"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "available:http", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "available:http",
+            "type": "personConcept",
             "value": 8.274088367704952
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523", 
-            "n2": "available:http", 
-            "type": "personConcept", 
+            "n1": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523",
+            "n2": "available:http",
+            "type": "personConcept",
             "value": 7.359518563029578
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "MATH",
+            "n2": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "MATH", 
-            "n2": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523", 
-            "type": "orgPerson", 
+            "n1": "BMSP",
+            "n2": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 8.274088367704952
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 7.359518563029578
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 8.274088367704952
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b31ab0f0-74d7-4c11-b2bf-0ba32d402523", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 7.359518563029578
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "f4d3d2e8-dcc0-412e-9fee-91847127513b", 
-            "name": "Tom R Gaunt", 
-            "size": 2, 
-            "type": "person"
+            "id": "f4d3d2e8-dcc0-412e-9fee-91847127513b",
+            "name": "Tom R Gaunt",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 8.274088367704952
-        }
-    }, 
-    {
-        "link": {
-            "n1": "f4d3d2e8-dcc0-412e-9fee-91847127513b", 
-            "n2": "available:http", 
-            "type": "personConcept", 
+            "n1": "f4d3d2e8-dcc0-412e-9fee-91847127513b",
+            "n2": "available:http",
+            "type": "personConcept",
             "value": 11.534617148551582
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMSP",
+            "n2": "f4d3d2e8-dcc0-412e-9fee-91847127513b",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 8.274088367704952
-        }
-    }, 
-    {
-        "link": {
-            "n1": "f4d3d2e8-dcc0-412e-9fee-91847127513b", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 11.534617148551582
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "f4d3d2e8-dcc0-412e-9fee-91847127513b", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 8.274088367704952
-        }
-    }, 
-    {
-        "link": {
-            "n1": "f4d3d2e8-dcc0-412e-9fee-91847127513b", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 11.534617148551582
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 8.274088367704952
-        }
-    }, 
-    {
-        "link": {
-            "n1": "f4d3d2e8-dcc0-412e-9fee-91847127513b", 
-            "n2": "available:http", 
-            "type": "personConcept", 
-            "value": 11.534617148551582
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "express:sequence", 
-            "name": "express:sequence", 
-            "size": 1, 
+            "id": "express:sequence",
+            "name": "express:sequence",
+            "size": 1,
             "type": "bigram"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "express:sequence", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "express:sequence",
+            "type": "personConcept",
             "value": 8.866461091629782
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "n2": "express:sequence", 
-            "type": "personConcept", 
+            "n1": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4",
+            "n2": "express:sequence",
+            "type": "personConcept",
             "value": 7.4156687756324695
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "GELY", 
-            "n2": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "express:sequence", 
-            "type": "personConcept", 
-            "value": 8.866461091629782
-        }
-    }, 
-    {
-        "link": {
-            "n1": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "n2": "express:sequence", 
-            "type": "personConcept", 
-            "value": 7.4156687756324695
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BISC", 
-            "n2": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "express:sequence", 
-            "type": "personConcept", 
-            "value": 8.866461091629782
-        }
-    }, 
-    {
-        "link": {
-            "n1": "27ef6f2a-19b3-4474-b71c-e61f2c8585a4", 
-            "n2": "express:sequence", 
-            "type": "personConcept", 
-            "value": 7.4156687756324695
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "df647774-d3a8-4648-91f7-907be05f684c", 
-            "name": "Steven J Harper", 
-            "size": 2, 
-            "type": "person"
+            "id": "df647774-d3a8-4648-91f7-907be05f684c",
+            "name": "Steven J Harper",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "cancer:cell", 
-            "name": "cancer:cell", 
-            "size": 1, 
+            "id": "cancer:cell",
+            "name": "cancer:cell",
+            "size": 1,
             "type": "bigram"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 7.293282217663242
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "df647774-d3a8-4648-91f7-907be05f684c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "df647774-d3a8-4648-91f7-907be05f684c",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 8.142667503568731
         }
-    }, 
+    },
     {
         "node": {
-            "id": "712bb62c-1bde-43e5-ac46-2f3493af1997", 
-            "name": "Emma E Vincent", 
-            "size": 2, 
-            "type": "person"
+            "id": "712bb62c-1bde-43e5-ac46-2f3493af1997",
+            "name": "Emma E Vincent",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMST",
+            "n2": "712bb62c-1bde-43e5-ac46-2f3493af1997",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMST", 
-            "n2": "712bb62c-1bde-43e5-ac46-2f3493af1997", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "712bb62c-1bde-43e5-ac46-2f3493af1997", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "712bb62c-1bde-43e5-ac46-2f3493af1997",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 20.39469495385889
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "712bb62c-1bde-43e5-ac46-2f3493af1997", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 20.39469495385889
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "PANM", 
-            "name": "PANM", 
-            "size": 2, 
+            "id": "PANM",
+            "name": "PANM",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "0645d396-cd0b-42c2-9820-e60a175d388a", 
-            "name": "Karim T A Malik", 
-            "size": 2, 
-            "type": "person"
+            "id": "0645d396-cd0b-42c2-9820-e60a175d388a",
+            "name": "Karim T A Malik",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "PANM",
+            "n2": "0645d396-cd0b-42c2-9820-e60a175d388a",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "PANM", 
-            "n2": "0645d396-cd0b-42c2-9820-e60a175d388a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "0645d396-cd0b-42c2-9820-e60a175d388a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "0645d396-cd0b-42c2-9820-e60a175d388a",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 9.47755576649368
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "0645d396-cd0b-42c2-9820-e60a175d388a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 9.47755576649368
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMST", 
-            "n2": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "78c066a8-187f-42c8-8c28-adfb6777cb97",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 40.79048498545737
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 40.79048498545737
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "78c066a8-187f-42c8-8c28-adfb6777cb97", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 40.79048498545737
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "7a5da52e-9fde-4e4b-be03-2e56fa343c2d", 
-            "name": "Keith W Brown", 
-            "size": 2, 
-            "type": "person"
+            "id": "7a5da52e-9fde-4e4b-be03-2e56fa343c2d",
+            "name": "Keith W Brown",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "PANM",
+            "n2": "7a5da52e-9fde-4e4b-be03-2e56fa343c2d",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "PANM", 
-            "n2": "7a5da52e-9fde-4e4b-be03-2e56fa343c2d", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "7a5da52e-9fde-4e4b-be03-2e56fa343c2d", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "7a5da52e-9fde-4e4b-be03-2e56fa343c2d",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 12.838631997765026
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "7a5da52e-9fde-4e4b-be03-2e56fa343c2d", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 12.838631997765026
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "3f185f22-94e7-4113-a43a-874fe0a0fdc4", 
-            "name": "Ann C Williams", 
-            "size": 2, 
-            "type": "person"
+            "id": "3f185f22-94e7-4113-a43a-874fe0a0fdc4",
+            "name": "Ann C Williams",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "PANM",
+            "n2": "3f185f22-94e7-4113-a43a-874fe0a0fdc4",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "PANM", 
-            "n2": "3f185f22-94e7-4113-a43a-874fe0a0fdc4", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "3f185f22-94e7-4113-a43a-874fe0a0fdc4", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "3f185f22-94e7-4113-a43a-874fe0a0fdc4",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 15.09528445472132
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "3f185f22-94e7-4113-a43a-874fe0a0fdc4", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 15.09528445472132
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "3f185f22-94e7-4113-a43a-874fe0a0fdc4", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 15.09528445472132
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "cd5e217d-bde5-441b-8132-a86e96fe8888", 
-            "name": "Marianna Szemes", 
-            "size": 2, 
-            "type": "person"
+            "id": "cd5e217d-bde5-441b-8132-a86e96fe8888",
+            "name": "Marianna Szemes",
+            "size": 2,
+            "type": "person",
+			"gender": "f"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "PANM",
+            "n2": "cd5e217d-bde5-441b-8132-a86e96fe8888",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "PANM", 
-            "n2": "cd5e217d-bde5-441b-8132-a86e96fe8888", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "cd5e217d-bde5-441b-8132-a86e96fe8888", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "cd5e217d-bde5-441b-8132-a86e96fe8888",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 9.767003889607846
         }
-    }, 
+    },
     {
         "node": {
-            "id": "3b3d7668-059e-483a-bf9a-7d98922d6b54", 
-            "name": "Alexander Greenhough", 
-            "size": 2, 
-            "type": "person"
+            "id": "3b3d7668-059e-483a-bf9a-7d98922d6b54",
+            "name": "Alexander Greenhough",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "PANM",
+            "n2": "3b3d7668-059e-483a-bf9a-7d98922d6b54",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "PANM", 
-            "n2": "3b3d7668-059e-483a-bf9a-7d98922d6b54", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "3b3d7668-059e-483a-bf9a-7d98922d6b54", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "3b3d7668-059e-483a-bf9a-7d98922d6b54",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 9.575118363368933
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BIOC", 
-            "n2": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "7648cbbf-2a1d-47f7-98df-b83731400558",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 10.705533773838408
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 10.705533773838408
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "7648cbbf-2a1d-47f7-98df-b83731400558", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 10.705533773838408
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "ANAT", 
-            "name": "ANAT", 
-            "size": 2, 
+            "id": "ANAT",
+            "name": "ANAT",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "7dfed7d5-6d9a-4b00-8e21-ae23df9b7470", 
-            "name": "Nobue Itasaki", 
-            "size": 2, 
-            "type": "person"
+            "id": "7dfed7d5-6d9a-4b00-8e21-ae23df9b7470",
+            "name": "Nobue Itasaki",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "ANAT",
+            "n2": "7dfed7d5-6d9a-4b00-8e21-ae23df9b7470",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "ANAT", 
-            "n2": "7dfed7d5-6d9a-4b00-8e21-ae23df9b7470", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "7dfed7d5-6d9a-4b00-8e21-ae23df9b7470", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "7dfed7d5-6d9a-4b00-8e21-ae23df9b7470",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 8.67366413907125
         }
-    }, 
+    },
     {
         "node": {
-            "id": "f180f1a5-1c9b-4438-929d-ef4f5363e64c", 
-            "name": "Catherine D Nobes", 
-            "size": 2, 
-            "type": "person"
+            "id": "f180f1a5-1c9b-4438-929d-ef4f5363e64c",
+            "name": "Catherine D Nobes",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "f180f1a5-1c9b-4438-929d-ef4f5363e64c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "f180f1a5-1c9b-4438-929d-ef4f5363e64c",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 10.09151498112135
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BIOC",
+            "n2": "f180f1a5-1c9b-4438-929d-ef4f5363e64c",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "f180f1a5-1c9b-4438-929d-ef4f5363e64c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 10.09151498112135
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "f180f1a5-1c9b-4438-929d-ef4f5363e64c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 10.09151498112135
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BIOC", 
-            "n2": "f180f1a5-1c9b-4438-929d-ef4f5363e64c", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "f180f1a5-1c9b-4438-929d-ef4f5363e64c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 10.09151498112135
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "PSYC", 
-            "name": "PSYC", 
-            "size": 2, 
+            "id": "PSYC",
+            "name": "PSYC",
+            "size": 2,
             "type": "org"
         }
-    }, 
+    },
     {
         "node": {
-            "id": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "name": "Risto A Kauppinen", 
-            "size": 2, 
-            "type": "person"
+            "id": "c3e32da4-1dd2-4ebb-8735-16ab184e340c",
+            "name": "Risto A Kauppinen",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "PSYC",
+            "n2": "c3e32da4-1dd2-4ebb-8735-16ab184e340c",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "PSYC", 
-            "n2": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "c3e32da4-1dd2-4ebb-8735-16ab184e340c",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 11.153662887870194
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 11.153662887870194
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 11.153662887870194
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 11.153662887870194
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "c3e32da4-1dd2-4ebb-8735-16ab184e340c", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 11.153662887870194
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 50.3777859770337
         }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMST", 
-            "n2": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 50.3777859770337
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "91fe2a91-559a-4450-aad0-eaa7cdb2ab16", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 50.3777859770337
-        }
-    }, 
+    },
     {
         "node": {
-            "id": "30f7b6ff-b48b-4e4c-ba00-85bd1c7eaf77", 
-            "name": "Daniel J Asby", 
-            "size": 2, 
-            "type": "person"
+            "id": "30f7b6ff-b48b-4e4c-ba00-85bd1c7eaf77",
+            "name": "Daniel J Asby",
+            "size": 2,
+            "type": "person",
+			"gender": "m"
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
+            "n1": "BMST",
+            "n2": "30f7b6ff-b48b-4e4c-ba00-85bd1c7eaf77",
+            "type": "orgPerson",
             "value": 1
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMST", 
-            "n2": "30f7b6ff-b48b-4e4c-ba00-85bd1c7eaf77", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "30f7b6ff-b48b-4e4c-ba00-85bd1c7eaf77", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "30f7b6ff-b48b-4e4c-ba00-85bd1c7eaf77",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 7.419075024324381
         }
-    }, 
+    },
     {
         "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMST", 
-            "n2": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 10.787812395596042
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 10.787812395596042
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 10.787812395596042
-        }
-    }, 
-    {
-        "link": {
-            "n1": "BMSP", 
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "type": "orgPerson", 
-            "value": 1
-        }
-    }, 
-    {
-        "link": {
-            "n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
-            "value": 7.293282217663242
-        }
-    }, 
-    {
-        "link": {
-            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7", 
-            "n2": "cancer:cell", 
-            "type": "personConcept", 
+            "n1": "9e66e520-7124-42c7-a9c5-4da8c4df7cb7",
+            "n2": "cancer:cell",
+            "type": "personConcept",
             "value": 10.787812395596042
         }
     }

@@ -1,4 +1,4 @@
-function transform_data(jsonData) {
+function gv_transform_data(jsonData) {
 
     var i, v, s, g = {nodes: [], links: []};
     var nodeCheck = []
@@ -116,12 +116,11 @@ function transform_data(jsonData) {
 	return g
 }
 
-function d3_graph(graph, gname, conf) {
+function gv_d3_graph(graph, gname, conf) {
 	//console.log(conf)
 	//need to add link labels and multiple links between nodes
 	//https://bl.ocks.org/mattkohl/146d301c0fc20d89d85880df537de7b0
     console.log('d3_graph : ' + gname)
-	console.log(graph.length)
     var width = $("#"+gname).width();
     var height = $("#"+gname).height();
 	console.log(width,height)
@@ -203,6 +202,21 @@ function d3_graph(graph, gname, conf) {
 			d3.select(this).append("image")
 				.attr("xlink:href", function(d){
 					return conf[d.type].nodeVal
+				})
+				.attr("x", -50)
+				.attr("y", -100)
+				//.attr("width", 16)
+				.attr("height", function (d) {
+					return d.size*2
+				})
+		}else if (conf[d.type].nodeType=='gender'){
+			d3.select(this).append("image")
+				.attr("xlink:href", function(d){
+					imgLink = 'https://png.icons8.com/person-female/color/200'
+					if (d.gender == 'm'){
+						imgLink='https://png.icons8.com/person/color/200'
+					}
+					return imgLink
 				})
 				.attr("x", -50)
 				.attr("y", -100)
@@ -352,11 +366,11 @@ function d3_graph(graph, gname, conf) {
     // }
 }
 
-function graph_controller(controller_div){
+function gv_graph_controller(controller_div){
 	console.log('creating controller_div')
 	var div = document.getElementById(controller_div);
-	div.innerHTML += '<h1>Graph configuration:</h1><br><span style="float:left;margin-left: 10px;">Charge:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider1"></div>';
-	div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Link Distance:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider2"></div>';
+	div.innerHTML += '<h3>Graph configuration:</h3><br><span style="float:left;margin-left: 10px;">Charge:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider1"></div>';
+	div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Distance:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider2"></div>';
 	div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Gravity:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider3"></div>';
 
 	$( function() {
@@ -399,11 +413,11 @@ function graph_controller(controller_div){
 	  } );
 }
 
-function graph_view_run(jsonData,element_id,conf,controller_div){
-	g = transform_data(jsonData);
+function gv_graph_view_run(jsonData,element_id,conf,controller_div){
+	g = gv_transform_data(jsonData);
 	setTimeout(function(){
 		console.log(g);
-		d3_graph(g,element_id,conf)
-		graph_controller(controller_div)
+		gv_d3_graph(g,element_id,conf)
+		gv_graph_controller(controller_div)
 	}, 300);
 }

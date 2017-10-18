@@ -2,32 +2,23 @@
 
 <html>
 <head>
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"></link>
-<link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css"</link>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/scroller/1.4.3/css/scroller.dataTables.min.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/scroller/1.4.3/js/dataTables.scroller.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="./graph_view.js"></script>
-<style>
-.container {
-    width: 98%;
-    margin: auto;
-    padding: 5px;
-}
-.one {
-    width: 75%;
-    height: 800px;
-    float: left;
-	border-style: solid;
-}
-.two {
-	width: 24%;
-    height: 800px;
-	float: right;
-	border-style: solid;
-}
-</style>
+<script type="text/javascript" src="https://gender-api.com/js/jquery/gender.min.js"></script>
+
+
 
 <script>
 $(document).ready(function() {
@@ -35,48 +26,88 @@ $(document).ready(function() {
         "ajax": {
             "url": "axon_demo.json",
 			"dataSrc": function ( jsonData ) {
-			  jsonData.data=[]
-			  var personOrg = {};
-			  tableData=[]
-		      for ( var i=0, ien=jsonData.length ; i<ien ; i++ ) {
-				d = jsonData[i]
-				if ('node' in d){
-
-					tableData.push([d['node']['name'],d['node']['name']])
+				jsonData.data=[]
+			  	var nodeData = {}
+				var linkCheck = []
+			  	tableData=[]
+		      	for ( var i=0, ien=jsonData.length ; i<ien ; i++ ) {
+			  		d = jsonData[i]
+					if ('node' in d){
+						var id = d['node']['id']
+						nodeData[id]=[d['node']['type'],d['node']['name']]
+					}
+					if ('link' in d){
+						if (d['link']['type']=='orgPerson'){
+							orgID=d['link']['n1']
+							personID=d['link']['n2']
+							orgName=nodeData[orgID][1]
+							personName=nodeData[personID][1]
+							tableData.push([personName,orgName])
+						}
+		      		}
 				}
-		      }
+			  //console.log(nodeData)
 			  //console.log(tableData)
 		      return tableData;
 		    }
-        }
+        },
+		//"processing": true,
+         //"serverSide": true,
+         "order": [1, "asc"],
+		//"dom": 'Bfrtip',
+		language: {
+			search: "_INPUT_",
+			searchPlaceholder: "Search..."
+			},
+		"dom": "<'row'<'col-md-12't>>" + "<'row'<'col-md-6'ip><'col-md-6'f>>",
+		scrollY:        400,
+		deferRender:    true,
+		scroller:       true,
+		//scrollCollapse: true,
     } );
 } );
-</script
+</script>
+
+<style>
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+}
+
+</style>
 
 </head>
 
 <body>
-	<section class="container">
-	    <div id='graph_view_div' class="one"></div>
-	    <div id='graph_controller_div' class="two">
-		<table id="example" class="display" cellspacing="0" width="100%">
-	<thead>
-		<tr>
-			<th>Person</th>
-			<th>Org</th>
-		</tr>
-	</thead>
-</table>
+	<div class="container">
+		<div class="row">
+			<div class="col-9 card">
+	  			<div class="card-block" id='graph_view_div' style="height:800px" ></div>
+			</div>
+			<div class="col-3 card">
+				<table id="example" class="display" cellspacing="0" width="100%">
+					<thead>
+						<tr>
+							<th>Person</th>
+							<th>Org</th>
+						</tr>
+					</thead>
+				</table>
+				<br><div id = 'graph_controller_div' style="height:700px;width:300px"></div>
+			</div>
 		</div>
-	</section>
-<!--div id = 'graph_view_div' style="height:700px;width:1000px"></div>
-<div id = 'graph_controller_div' style="height:700px;width:300px"></div-->
-<script>
+	</div>
 
+
+
+
+<script>
 //config data
 var axon_conf={
 	'org':{'nodeType':'img','nodeVal':'https://png.icons8.com/organization/nolan/200','textCol':'#C761FB'},
-	'person':{'nodeType':'img','nodeVal':'https://png.icons8.com/person-female/color/200','textCol':'#BC9E6A'},
+	//'person':{'nodeType':'img','nodeVal':'https://png.icons8.com/person-female/color/200','textCol':'#BC9E6A'},
+	'person':{'nodeType':'gender','nodeVal':'','textCol':'#BC9E6A'},
 	'type':{'nodeType':'img','nodeVal':'https://png.icons8.com/idea/office/200','textCol':'dark grey'},
 	'bigram':{'nodeType':'img','nodeVal':'https://png.icons8.com/idea/office/200','textCol':'dark grey'},
 	'trigram':{'nodeType':'img','nodeVal':'https://png.icons8.com/idea/office/200','textCol':'dark grey'},
@@ -86,7 +117,7 @@ var axon_conf={
 	'personPub':{'linkCol':'orange'},
 }
 
-graph_view_run('axon_demo.json','graph_view_div',axon_conf,'graph_controller_div')
+gv_graph_view_run('axon_demo.json','graph_view_div',axon_conf,'graph_controller_div')
 </script>
 
 </body>
