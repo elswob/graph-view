@@ -1,26 +1,57 @@
-function gv_transform_data(jsonData) {
-
-    var i, v, s, g = {nodes: [], links: []};
-    var nodeCheck = []
-    var relCheck = []
-    var ssCheck = false
-    var nCount = 0
-    var sData = []
-    var linkLimits = [1000000, 0]
-    var nodeLimits = [1000000, 0]
-    //var insCols = {SSCM: 'black', IEU: 'blue', ICEP: 'red'}
+function gv_graph_view_run(jsonData,element_id,conf,controller_div,search_div) {
 
 	//for (var i = 0; i < jsonData.length; i++) {
     //    d = jsonData[i]
-	d3.json(jsonData, function(data) {
-		for (i in data){
-			d = data[i]
+	var jsonObj = {}
+	var IS_JSON = true;
+	try{
+		jsonObj=JSON.parse(jsonData)
+	}catch(err){
+		IS_JSON = false;
+	}
+	if(IS_JSON == false){
+		console.log('data is json file')
+		//jsonObj = d3.json(jsonData)
+		//jsonObj = $.getJSON(jsonData)
+		$.getJSON(jsonData, function (data) {
+		    //$.each(data, function (index, value) {
+		    //   	console.log(index);
+			//	jsonObj.push(value)
+		    //});
+			g=gv_transform_data(data)
+			gv_d3_graph(g,element_id,conf)
+			gv_graph_controller(controller_div)
+			gv_searcher(search_div)
+			//console.log(jsonObj)
+			//return jsonObj
+		})
+	}else{
+		console.log('data is json object')
+		g=gv_transform_data(jsonObj)
+		gv_d3_graph(g,element_id,conf)
+		gv_graph_controller(controller_div)
+		gv_searcher(search_div)
+	}
+}
 
-				//nodes
-				if ('node' in d){
+function gv_transform_data(jsonData) {
+	console.log(jsonData)
+	var i, v, s, g = {nodes: [], links: []};
+	var nodeCheck = []
+	var relCheck = []
+	var ssCheck = false
+	var nCount = 0
+	var sData = []
+	var linkLimits = [1000000, 0]
+	var nodeLimits = [1000000, 0]
+	//for (var i = 0; i < jsonData.length; i++) {
+	//d3.json(jsonData, function(data) {
+	for (i in jsonData.node){
+			d = jsonData.node[i]
+			//console.log(d)
 					//set node size limit
-					if ('size' in d['node']){
-						nodeSize = d['node']['size']
+					if ('size' in d){
+						nodeSize = d['size']
 						if (nodeSize < nodeLimits[0]){
 							nodeLimits[0] = nodeSize
 						}
@@ -30,26 +61,26 @@ function gv_transform_data(jsonData) {
 					}
 
 					//add nodes
-					if ('id' in d['node']){
-						nodeName = d['node']['id']
-				 		if (nodeCheck.indexOf(nodeName) < 0) {
+					if ('id' in d){
+						nodeName = d['id']
+						if (nodeCheck.indexOf(nodeName) < 0) {
 							pData={}
-							for (p in d['node']){
-								pData[p]=d['node'][p]
+							for (p in d){
+								pData[p]=d[p]
 							}
 								//console.log(p,d['node'][p])
-						 	g.nodes.push(pData)
+							g.nodes.push(pData)
 						 nodeCheck.push(nodeName)
 						 nCount++
-				 		}
+						}
 					}
 				}
-
+	for (i in jsonData.link){
+		d = jsonData.link[i]
 				//set link size limits
-				if ('link' in d){
 					//console.log(d)
-					if ('value' in d['link']){
-						linkSize = d['link']['value']
+					if ('value' in d){
+						linkSize = d['value']
 						if (linkSize < linkLimits[0]){
 							linkLimits[0] = linkSize
 						}
@@ -58,23 +89,22 @@ function gv_transform_data(jsonData) {
 						}
 					}
 					//add links
-					if ('n1' in d['link'] && 'n2' in d['link']){
-						nodeName1 = d['link']['n1']
-						nodeName2 = d['link']['n2']
+					if ('n1' in d && 'n2' in d){
+						nodeName1 = d['n1']
+						nodeName2 = d['n2']
 
-				 		if (relCheck.indexOf(nodeName1 + ":" + nodeName2) < 0) {
+						if (relCheck.indexOf(nodeName1 + ":" + nodeName2) < 0) {
 							pData = {source: nodeCheck.indexOf(nodeName1),target: nodeCheck.indexOf(nodeName2)}
-							for (p in d['link']){
-						 		pData[p]=d['link'][p]
-						 	}
+							for (p in d){
+								pData[p]=d[p]
+							}
 							g.links.push(pData)
 						 //relCheck.push(nodeName)
 						 nCount++
-				 		}
+						}
 					}
 				}
-			//end of data parse loop
-			}
+	//end of data parse loops
 
 	//console.log(g)
 		if (nodeLimits == [1000000, 0]){
@@ -86,33 +116,33 @@ function gv_transform_data(jsonData) {
 		console.log(nodeLimits,linkLimits)
 		//return nodeLimits
 		//
-    //adjust link values
-    maxLinkSize = 20
-    console.log('linkLimits:' + linkLimits)
-    //linkSpan = linkLimits[1]-linkLimits[0]
-    linkSpan = linkLimits[1]
-    console.log('linkSpan:' + linkSpan)
-    linkAdjust = maxLinkSize / linkSpan
-    console.log('linkAdjust:' + linkAdjust)
-    g.links = g.links.filter(function (link) {
-        link.value = link.value * linkAdjust + 0.3
-        return link
-    })
+	//adjust link values
+	maxLinkSize = 20
+	console.log('linkLimits:' + linkLimits)
+	//linkSpan = linkLimits[1]-linkLimits[0]
+	linkSpan = linkLimits[1]
+	console.log('linkSpan:' + linkSpan)
+	linkAdjust = maxLinkSize / linkSpan
+	console.log('linkAdjust:' + linkAdjust)
+	g.links = g.links.filter(function (link) {
+		link.value = link.value * linkAdjust + 0.3
+		return link
+	})
 
-    //adjust node sizes
-    maxNodeSize = 100
-    console.log('nodeLimits:' + nodeLimits)
-    nodeSpan = nodeLimits[1]
-    console.log('nodeSpan:' + nodeSpan)
-    nodeAdjust = maxNodeSize / Math.sqrt(nodeSpan)
-    console.log('nodeAdjust:' + nodeAdjust)
-    g.nodes = g.nodes.filter(function (node) {
-        node.size = (Math.sqrt(node.size) * nodeAdjust) + 2
-        return node
-    })
+	//adjust node sizes
+	maxNodeSize = 100
+	console.log('nodeLimits:' + nodeLimits)
+	nodeSpan = nodeLimits[1]
+	console.log('nodeSpan:' + nodeSpan)
+	nodeAdjust = maxNodeSize / Math.sqrt(nodeSpan)
+	console.log('nodeAdjust:' + nodeAdjust)
+	g.nodes = g.nodes.filter(function (node) {
+		node.size = (Math.sqrt(node.size) * nodeAdjust) + 2
+		return node
+	})
 	//console.log(g)
 
-	})
+	//})
 	return g
 }
 
@@ -367,63 +397,61 @@ function gv_d3_graph(graph, gname, conf) {
 }
 
 function gv_searcher(search_div){
-	var div = document.getElementById(search_div);
-	div.innerHTML += '<div class="input-group"><input type="text" class="form-control" placeholder="Search for..."><span class="input-group-btn"><button class="btn btn-secondary" type="button">Go!</button></span></div>';
+	try{
+		var div = document.getElementById(search_div);
+		div.innerHTML += '<div class="input-group"><input type="text" class="form-control" placeholder="Search for..."><span class="input-group-btn"><button class="btn btn-secondary" type="button">Go!</button></span></div>';
+	}catch(err){
+		console.log('no search div')
+	}
 }
 
 function gv_graph_controller(controller_div){
-	console.log('creating controller_div')
-	var div = document.getElementById(controller_div);
-	div.innerHTML += '<h3>Graph configuration:</h3><br><span style="float:left;margin-left: 10px;">Charge:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider1"></div>';
-	div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Distance:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider2"></div>';
-	div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Gravity:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider3"></div>';
+	try{
+		console.log('creating controller_div')
+		var div = document.getElementById(controller_div);
+		div.innerHTML += '<h3>Graph configuration:</h3><br><span style="float:left;margin-left: 10px;">Charge:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider1"></div>';
+		div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Distance:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider2"></div>';
+		div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Gravity:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider3"></div>';
 
-	$( function() {
-	    $( "#slider1" ).slider({
-	      range: "max",
-	      min: 1,
-	      max: 10,
-	      value: 2,
-	      slide: function( event, ui ) {
-	        $( "#amount" ).val( ui.value );
-	      }
-	    });
-	    $( "#amount" ).val( $( "#slider1" ).slider( "value" ) );
-	  } );
+		$( function() {
+		    $( "#slider1" ).slider({
+		      range: "max",
+		      min: 1,
+		      max: 10,
+		      value: 2,
+		      slide: function( event, ui ) {
+		        $( "#amount" ).val( ui.value );
+		      }
+		    });
+		    $( "#amount" ).val( $( "#slider1" ).slider( "value" ) );
+		  } );
 
-	$( function() {
-	    $( "#slider2" ).slider({
-	      range: "max",
-	      min: 1,
-	      max: 10,
-	      value: 7,
-	      slide: function( event, ui ) {
-	        $( "#amount" ).val( ui.value );
-	      }
-	    });
-	    $( "#amount" ).val( $( "#slider2" ).slider( "value" ) );
-	  } );
+		$( function() {
+		    $( "#slider2" ).slider({
+		      range: "max",
+		      min: 1,
+		      max: 10,
+		      value: 7,
+		      slide: function( event, ui ) {
+		        $( "#amount" ).val( ui.value );
+		      }
+		    });
+		    $( "#amount" ).val( $( "#slider2" ).slider( "value" ) );
+		  } );
 
-	$( function() {
-	    $( "#slider3" ).slider({
-	      range: "max",
-	      min: 1,
-	      max: 10,
-	      value: 9,
-	      slide: function( event, ui ) {
-	        $( "#amount" ).val( ui.value );
-	      }
-	    });
-	    $( "#amount" ).val( $( "#slider3" ).slider( "value" ) );
-	  } );
-}
-
-function gv_graph_view_run(jsonData,element_id,conf,controller_div,search_div){
-	g = gv_transform_data(jsonData);
-	setTimeout(function(){
-		console.log(g);
-		gv_d3_graph(g,element_id,conf)
-		gv_graph_controller(controller_div)
-		gv_searcher(search_div)
-	}, 300);
+		$( function() {
+		    $( "#slider3" ).slider({
+		      range: "max",
+		      min: 1,
+		      max: 10,
+		      value: 9,
+		      slide: function( event, ui ) {
+		        $( "#amount" ).val( ui.value );
+		      }
+		    });
+		    $( "#amount" ).val( $( "#slider3" ).slider( "value" ) );
+		  } );
+	}catch(err){
+		console.log('no controller div')
+	}
 }

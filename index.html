@@ -50,7 +50,21 @@ var axon_conf={
 	'personPub':{'linkCol':'orange'},
 }
 
-graph_view_run('axon_demo.json','graph_view_div',axon_conf,'graph_controller_div')
+//using data from file
+//gv_graph_view_run('axon_demo.json','graph_view_div',axon_conf,'graph_controller_div')
+
+//using json object
+var json_example={
+	node:[
+		{"id": "BMSP","name": "BMSP","size": 2,"type": "org"},
+		{"id": "b4014828-88e9-4861-ae1d-5c369b6ae35a","name": "Benjamin L Elsworth","size": 2,"type": "person","gender": "m"},
+	],
+	link:[
+		{"n1": "BMSP","n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a","type": "orgPerson","value": 1},
+	]
+}
+gv_graph_view_run(JSON.stringify(json_example),'graph_view_div',axon_conf,'graph_controller_div')
+
 </script>
 
 </body>
