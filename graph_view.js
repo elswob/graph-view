@@ -1,4 +1,4 @@
-function gv_graph_view_run(jsonData,element_id,conf,controller_div,search_div) {
+function gv_graph_view_run(jsonData,element_id,conf) {
 
 	//for (var i = 0; i < jsonData.length; i++) {
     //    d = jsonData[i]
@@ -11,26 +11,14 @@ function gv_graph_view_run(jsonData,element_id,conf,controller_div,search_div) {
 	}
 	if(IS_JSON == false){
 		console.log('data is json file')
-		//jsonObj = d3.json(jsonData)
-		//jsonObj = $.getJSON(jsonData)
 		$.getJSON(jsonData, function (data) {
-		    //$.each(data, function (index, value) {
-		    //   	console.log(index);
-			//	jsonObj.push(value)
-		    //});
 			g=gv_transform_data(data)
 			gv_d3_graph(g,element_id,conf)
-			gv_graph_controller(controller_div)
-			gv_searcher(search_div)
-			//console.log(jsonObj)
-			//return jsonObj
 		})
 	}else{
 		console.log('data is json object')
 		g=gv_transform_data(jsonObj)
 		gv_d3_graph(g,element_id,conf)
-		gv_graph_controller(controller_div)
-		gv_searcher(search_div)
 	}
 }
 
@@ -399,7 +387,7 @@ function gv_d3_graph(graph, gname, conf) {
 function gv_searcher(search_div){
 	try{
 		var div = document.getElementById(search_div);
-		div.innerHTML += '<div class="input-group"><input type="text" class="form-control" placeholder="Search for..."><span class="input-group-btn"><button class="btn btn-secondary" type="button">Go!</button></span></div>';
+		div.innerHTML += '<br><h5>Graph search:</h5><div class="input-group"><input type="text" class="form-control" placeholder="Search for..."><span class="input-group-btn"><button class="btn btn-secondary" type="button">Go!</button></span></div>';
 	}catch(err){
 		console.log('no search div')
 	}
@@ -409,7 +397,7 @@ function gv_graph_controller(controller_div){
 	try{
 		console.log('creating controller_div')
 		var div = document.getElementById(controller_div);
-		div.innerHTML += '<h3>Graph configuration:</h3><br><span style="float:left;margin-left: 10px;">Charge:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider1"></div>';
+		div.innerHTML += '<h5>Graph configuration:</h5><br><span style="float:left;margin-left: 10px;">Charge:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider1"></div>';
 		div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Distance:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider2"></div>';
 		div.innerHTML += '<br><br><span style="float:left;margin-left: 10px;">Gravity:</span><div style="float:right;width:70%;margin-right: 15px;" id="slider3"></div>';
 

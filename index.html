@@ -2,6 +2,10 @@
 
 <html>
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -9,32 +13,32 @@
 <script src="./graph_view.js"></script>
 <style>
 .container {
-    width: 98%;
+    width: 90%;
     margin: auto;
     padding: 5px;
 }
-.one {
-    width: 75%;
-    height: 800px;
-    float: left;
-	border-style: solid;
-}
-.two {
-	width: 24%;
-    height: 800px;
-	float: right;
-	border-style: solid;
-}
+
 </style>
+
 </head>
 
 <body>
-	<section class="container">
-	    <div id='graph_view_div' class="one"></div>
-	    <div id='graph_controller_div' class="two"></div>
-	</section>
-<!--div id = 'graph_view_div' style="height:700px;width:1000px"></div>
-<div id = 'graph_controller_div' style="height:700px;width:300px"></div-->
+	<div class="container">
+		<div class="row">
+			<div class="col-6 card">
+	  			<div class="card-block" id='graph_view_div1' style="height:800px" ></div>
+			</div>
+			<div class="col-3 card">
+				<div class="card-block" id='graph_view_div2' style="height:800px" ></div>
+			</div>
+			<div class="col-3 card">
+				<br><div id = 'graph_controller_div'></div>
+				<br><div id = 'graph_search_div'></div>
+			</div>
+		</div>
+	</div>
+
+
 <script>
 
 //config data
@@ -51,20 +55,27 @@ var axon_conf={
 }
 
 //using data from file
-//gv_graph_view_run('axon_demo.json','graph_view_div',axon_conf,'graph_controller_div')
+gv_graph_view_run('axon_demo.json','graph_view_div1',axon_conf)
 
 //using json object
 var json_example={
 	node:[
 		{"id": "BMSP","name": "BMSP","size": 2,"type": "org"},
-		{"id": "b4014828-88e9-4861-ae1d-5c369b6ae35a","name": "Benjamin L Elsworth","size": 2,"type": "person","gender": "m"},
+		{"id": "b4014828-88e9-4861-ae1d-5c369b6ae35a","name": "Benjamin L Elsworth","size": 2,"type": "person"},
+		{"id": "cancer:cell","name":"cancer:cell","size":2,"type":"type"},
 	],
 	link:[
+		{"n1": "b4014828-88e9-4861-ae1d-5c369b6ae35a", "n2": "cancer:cell", "type": "personConcept", "value": 9.767003889607846},
 		{"n1": "BMSP","n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a","type": "orgPerson","value": 1},
 	]
 }
-gv_graph_view_run(JSON.stringify(json_example),'graph_view_div',axon_conf,'graph_controller_div')
+gv_graph_view_run(JSON.stringify(json_example),'graph_view_div2',axon_conf)
 
+//controller
+gv_graph_controller('graph_controller_div')
+
+//searchbar
+gv_searcher('graph_controller_div')
 </script>
 
 </body>
