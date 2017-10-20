@@ -26,14 +26,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-6 card">
+				<h5>JSON file:</h5>
 	  			<div class="card-block" id='graph_view_div1' style="height:800px" ></div>
 			</div>
 			<div class="col-3 card">
+				<h5>JSON object:</h5>
 				<div class="card-block" id='graph_view_div2' style="height:800px" ></div>
 			</div>
 			<div class="col-3 card">
-				<br><div id = 'graph_controller_div'></div>
-				<br><div id = 'graph_search_div'></div>
+				<div id ='graph_search_div'></div>
+				<div id ='graph_controller_div'></div>
 			</div>
 		</div>
 	</div>
@@ -71,11 +73,11 @@ var json_example={
 }
 gv_graph_view_run(JSON.stringify(json_example),'graph_view_div2',axon_conf)
 
-//controller
-gv_graph_controller('graph_controller_div')
-
 //searchbar
 gv_searcher('graph_controller_div')
+
+//controller
+gv_graph_controller('graph_controller_div')
 </script>
 
 </body>

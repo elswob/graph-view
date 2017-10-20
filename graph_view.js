@@ -10,20 +10,20 @@ function gv_graph_view_run(jsonData,element_id,conf) {
 		IS_JSON = false;
 	}
 	if(IS_JSON == false){
-		console.log('data is json file')
+		//console.log('data is json file')
 		$.getJSON(jsonData, function (data) {
 			g=gv_transform_data(data)
 			gv_d3_graph(g,element_id,conf)
 		})
 	}else{
-		console.log('data is json object')
+		//console.log('data is json object')
 		g=gv_transform_data(jsonObj)
 		gv_d3_graph(g,element_id,conf)
 	}
 }
 
 function gv_transform_data(jsonData) {
-	console.log(jsonData)
+	//console.log(jsonData)
 	var i, v, s, g = {nodes: [], links: []};
 	var nodeCheck = []
 	var relCheck = []
@@ -387,7 +387,7 @@ function gv_d3_graph(graph, gname, conf) {
 function gv_searcher(search_div){
 	try{
 		var div = document.getElementById(search_div);
-		div.innerHTML += '<br><h5>Graph search:</h5><div class="input-group"><input type="text" class="form-control" placeholder="Search for..."><span class="input-group-btn"><button class="btn btn-secondary" type="button">Go!</button></span></div>';
+		div.innerHTML += '<h5>Graph search:</h5><div class="input-group"><input type="text" class="form-control" placeholder="Search for..."><span class="input-group-btn"><button class="btn btn-secondary" type="button">Go!</button></span></div><br>';
 	}catch(err){
 		console.log('no search div')
 	}
