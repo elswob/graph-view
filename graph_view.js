@@ -251,24 +251,56 @@ function gv_d3_graph(graph, gname, conf) {
             return d.name;
         });
 
-    node.append("text")
-        //names next to nodes
-        .attr("dx", function (d) {
-			if (conf[d.type][0]=='circle'){
-            	return d.size
-			}else{
-				return d.size*0.7
-			}
-        })
-        .attr("dy", ".35em")
-        .text(function (d) {
-            return d.name
-        })
-        .style("font-size", "40px")
-        .style("font-family", "trebuchet")
-        .style("fill", function (d) {
-            return conf[d.type].textCol
-        })
+	//text inside nodes
+	if (conf['nodeText']){
+		if (conf['nodeText'].location == 'inside'){
+		node.append("text")
+				.selectAll("tspan")
+					.data(function(d) {
+						var dSplit = d.name.split(/ /g,3);
+						for (i in dSplit){
+							//console.log(dSplit[i])
+							if (dSplit[i].length < 3){
+							}
+							if (dSplit[i].length > 10){
+								dSplit[i] = dSplit[i].substring(0,8)+'..'
+							}
+						}
+						return dSplit
+					})
+					.enter().append("tspan")
+						.style("font-size","30px")
+						.attr("fill", "white")
+						.attr("text-anchor", "middle")
+						.attr("x", 0)
+						.attr("dy", "-.25em")
+						.attr("y", function(d, i) {
+							return 2 + (i  - 0.5) * 30;
+						})
+						.text(function(d) {
+							return d;
+						});
+		}
+	}else{
+		node.append("text")
+		    //names next to nodes
+		    .attr("dx", function (d) {
+				if (conf[d.type][0]=='circle'){
+		        	return d.size
+				}else{
+					return d.size*0.7
+				}
+		    })
+		    .attr("dy", ".35em")
+		    .text(function (d) {
+		        return d.name
+		    })
+		    .style("font-size", "40px")
+		    .style("font-family", "trebuchet")
+		    .style("fill", function (d) {
+		        return conf[d.type].textCol
+		    })
+	}
 
     var t = d3.transition()
         .duration(0)
