@@ -9,37 +9,47 @@ Needs to have nodes before links
 ##### Nodes  
 
 ```
-[
-    {
-        "node": {
-            "id": "BMSP",
-            "name": "BMSP",
-            "size": 2,
-            "type": "org"
-        }
-    },
-    {
-        "node": {
-            "id": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
-            "name": "Benjamin L Elsworth",
-            "size": 2,
-            "type": "person"
-        }
-    },
+{
+	"node": [
+			{
+            		"id": "BMSP",
+            		"name": "BMSP",
+            		"size": 2,
+            		"type": "org"
+        		},
+  			{
+            		"id": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            		"name": "Benjamin L Elsworth",
+            		"size": 2,
+            		"type": "person"
+			}
+		],
+     
+
 ```
+- id (required): the ID for the node, used by link for n1/n2 
+- name (required): name that will be displayed
+- type (required and unique): the type of node (used in conf file)
+- size (required): relative size
 
 ##### Links
 
 ```
-    {
-        "link": {
-            "n1": "BMSP",
-            "n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
-            "type": "orgPerson",
-            "value": 1
-        }
-    },
+
+	"link": [
+			{
+            		"n1": "BMSP",
+            		"n2": "b4014828-88e9-4861-ae1d-5c369b6ae35a",
+            		"type": "orgPerson",
+            		"value": 1
+        		},
+		]
+}
 ```
+- n1 (required): the node ID for one end of link
+- n2 (required): the node ID for other end of link
+- type (required and unique): the type of link (used in conf file)
+- valye (requred): the size (width) of the link 
 
 ##### HTML
 
@@ -69,8 +79,20 @@ graph_view_run('axon_demo.json','graph_view_div',axon_conf,'graph_controller_div
 </body>
 ```
 
-#####Configuration parameters
+### Configuration parameters
 
+##### Nodes
+
+- object key (required) - matches node type in JSON 
+- nodeType (required) - can be 'img' or 'circle'
+- nodeVal (required) - if nodeType is img, either a relative path to image of URL. If node type circle, the colour of the circle
+- textCol (required) - the colour for the node text 
+- textSize (optional) - set the size of the node text to a specific value 
+
+##### Links
+
+- object key (required) - matches link type in JSON 
+- linkCol (required) - colour of linking line
 
 ### Testing
 
