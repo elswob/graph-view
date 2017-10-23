@@ -112,6 +112,10 @@ function gv_transform_data(jsonData) {
 	console.log('linkSpan:' + linkSpan)
 	linkAdjust = maxLinkSize / linkSpan
 	console.log('linkAdjust:' + linkAdjust)
+	//adjust for one value
+	if (linkLimits[0]==linkLimits[1]){
+		linkAdjust=linkAdjust/2
+	}
 	g.links = g.links.filter(function (link) {
 		link.value = link.value * linkAdjust + 0.3
 		return link
@@ -252,9 +256,11 @@ function gv_d3_graph(graph, gname, conf) {
         });
 
 	//text inside nodes
+	var nodeTextInside=false
 	if (conf['nodeText']){
 		if (conf['nodeText'].location == 'inside'){
-		node.append("text")
+			nodeTextInside=true
+			node.append("text")
 				.selectAll("tspan")
 					.data(function(d) {
 						var dSplit = d.name.split(/ /g,3);
@@ -269,7 +275,14 @@ function gv_d3_graph(graph, gname, conf) {
 						return dSplit
 					})
 					.enter().append("tspan")
-						.style("font-size","30px")
+						.style("font-size",function(d){
+							if (conf[d.type]['textSize']){
+								var textSize = conf[d.type]['textSize']
+							}else{
+								var textSize="30px"
+							}
+							return textSize
+						})
 						.attr("fill", "white")
 						.attr("text-anchor", "middle")
 						.attr("x", 0)
@@ -281,7 +294,8 @@ function gv_d3_graph(graph, gname, conf) {
 							return d;
 						});
 		}
-	}else{
+	}
+	if (nodeTextInside == false){
 		node.append("text")
 		    //names next to nodes
 		    .attr("dx", function (d) {
@@ -295,7 +309,14 @@ function gv_d3_graph(graph, gname, conf) {
 		    .text(function (d) {
 		        return d.name
 		    })
-		    .style("font-size", "40px")
+			.style("font-size",function(d){
+				if (conf[d.type]['textSize']){
+					var textSize = conf[d.type]['textSize']
+				}else{
+					var textSize="40px"
+				}
+				return textSize
+			})
 		    .style("font-family", "trebuchet")
 		    .style("fill", function (d) {
 		        return conf[d.type].textCol
