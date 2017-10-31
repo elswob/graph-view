@@ -261,6 +261,11 @@ function gv_d3_graph(graph, gname, conf) {
 		if (conf['nodeText'].location == 'inside'){
 			nodeTextInside=true
 			node.append("text")
+				.style("font-size", function(d) {
+					console.log(d.size)
+					return d.size/3+"px"
+				})
+
 				.selectAll("tspan")
 					.data(function(d) {
 						var dSplit = d.name.split(/ /g,3);
@@ -275,20 +280,12 @@ function gv_d3_graph(graph, gname, conf) {
 						return dSplit
 					})
 					.enter().append("tspan")
-						.style("font-size",function(d){
-							if (conf[d.type]['textSize']){
-								var textSize = conf[d.type]['textSize']
-							}else{
-								var textSize="30px"
-							}
-							return textSize
-						})
 						.attr("fill", "white")
 						.attr("text-anchor", "middle")
 						.attr("x", 0)
 						.attr("dy", "-.25em")
 						.attr("y", function(d, i) {
-							return 2 + (i  - 0.5) * 30;
+							return 2 + (i  - 0.5) * 25;
 						})
 						.text(function(d) {
 							return d;
@@ -313,7 +310,7 @@ function gv_d3_graph(graph, gname, conf) {
 				if (conf[d.type]['textSize']){
 					var textSize = conf[d.type]['textSize']
 				}else{
-					var textSize="40px"
+					var textSize="60px"
 				}
 				return textSize
 			})
@@ -380,7 +377,12 @@ function gv_d3_graph(graph, gname, conf) {
 			}
 		})
         node.select("text").style("stroke",function (n){
-			return conf[n.type].textCol
+			if (nodeTextInside == false){
+				return conf[n.type].textCol
+			}
+			//else{
+			//	return "white"
+			//}
 		})
     }
 
