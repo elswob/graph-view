@@ -151,6 +151,16 @@ function gv_d3_graph(graph, gname, conf) {
     //height = 500,
     radius = 6;
 
+	// used to store the number of links between two nodes.
+	// mLinkNum[data.links[i].source + "," + data.links[i].target] = data.links[i].linkindex;
+	var mLinkNum = {};
+
+	// sort links first
+	sortLinks();
+
+	// set up linkIndex and linkNumer, because it may possible multiple links share the same source and target node
+	setLinkIndexAndNum();
+
 	var force = d3.layout.force()
         .size([width, height])
         .charge(-150000)
@@ -178,6 +188,18 @@ function gv_d3_graph(graph, gname, conf) {
         .call(zoom)
         .append("svg:g")
 
+	var path = svg.append("svg:g")
+          .selectAll("path")
+          .data(force.links())
+          .enter().append("svg:path")
+          .attr("class", "link")
+		  .style("stroke-width", function (d) {
+              return d.value;
+          })
+          .style("stroke", function (d) {
+              return conf[d.type].linkCol;
+          })
+
 	//zoomScale = 0.16
 	zoomScale = ((1/numNodes)+0.008)*(height/200)
 	//zoomScale = 0.25
@@ -186,16 +208,16 @@ function gv_d3_graph(graph, gname, conf) {
     zoom.translate([width/2,height/2]).scale(zoomScale);
     zoom.event(svg.transition().duration(5000))
 
-    var link = svg.selectAll(".link")
-        .data(graph.links)
-        .enter().append("line")
-        .attr("class", "link")
-        .style("stroke-width", function (d) {
-            return d.value;
-        })
-        .style("stroke", function (d) {
-            return conf[d.type].linkCol;
-        })
+    // var link = svg.selectAll(".link")
+    //     .data(graph.links)
+    //     .enter().append("line")
+    //     .attr("class", "link")
+    //     .style("stroke-width", function (d) {
+    //         return d.value;
+    //     })
+    //     .style("stroke", function (d) {
+    //         return conf[d.type].linkCol;
+    //     })
 
 
     var node = svg.selectAll(".node")
@@ -393,31 +415,69 @@ function gv_d3_graph(graph, gname, conf) {
 		})
     }
 
-    function tick() {
-        link.attr("x1", function (d) {
-                return d.source.x;
-            })
-            .attr("y1", function (d) {
-                return d.source.y;
-            })
-            .attr("x2", function (d) {
-                return d.target.x;
-            })
-            .attr("y2", function (d) {
-                return d.target.y;
-            });
+    // function tick() {
+    //     link.attr("x1", function (d) {
+    //             return d.source.x;
+    //         })
+    //         .attr("y1", function (d) {
+    //             return d.source.y;
+    //         })
+    //         .attr("x2", function (d) {
+    //             return d.target.x;
+    //         })
+    //         .attr("y2", function (d) {
+    //             return d.target.y;
+    //         });
+	//
+    //     node.attr("cx", function (d) {
+    //             return d.x;
+    //         })
+    //         .attr("cy", function (d) {
+    //             return d.y;
+    //         })
+    //         .attr("transform", function (d) {
+    //             return "translate(" + d.x + "," + d.y + ")";
+    //         })
+    // }
 
-        node.attr("cx", function (d) {
-                return d.x;
-            })
-            .attr("cy", function (d) {
-                return d.y;
-            })
-            .attr("transform", function (d) {
-                return "translate(" + d.x + "," + d.y + ")";
-            })
-    }
+	function tick() {
+		 path.attr("d", function(d) {
+			 //console.log(d)
+			 var dx = d.target.x - d.source.x,
+				 dy = d.target.y - d.source.y,
+				 dr = Math.sqrt(dx * dx + dy * dy);
+			 // get the total link numbers between source and target node
+			 var lTotalLinkNum = mLinkNum[d.source.index + "," + d.target.index] || mLinkNum[d.target.index + "," + d.source.index];
+			 if(lTotalLinkNum > 1)
+			 {
+				 // if there are multiple links between these two nodes, we need generate different dr for each path
+				 dr = dr/(1 + (1/lTotalLinkNum) * (d.linkindex - 1));
+			 }
+			 // generate svg path
+			 //console.log(d.source.x,d.source.y,d.target.x,d.target.y,d.source.x,d.source.y)
+			 return "M" + d.source.x + "," + d.source.y +
+				 "A" + dr + "," + dr + " 0 0 1," + d.target.x + "," + d.target.y +
+				 "A" + dr + "," + dr + " 0 0 0," + d.source.x + "," + d.source.y;
+		 });
 
+		 // Add tooltip to the connection path
+		 path.append("svg:title")
+			 .text(function(d, i) { return d.name; });
+
+		 node.attr("cx", function (d) {
+	                  return d.x;
+	              })
+	              .attr("cy", function (d) {
+	                  return d.y;
+	              })
+	              .attr("transform", function (d) {
+	                  return "translate(" + d.x + "," + d.y + ")";
+	              })
+
+		 //text.attr("transform", function(d) {
+		//	 return "translate(" + d.x + "," + d.y + ")";
+		 //});
+	 }
 
     function dblclick(d) {
         d3.select(this).classed("fixed", d.fixed = false);
@@ -446,9 +506,58 @@ function gv_d3_graph(graph, gname, conf) {
     //        mouseout()
     // }
 
+	// sort the links by source, then target
+    function sortLinks(){
+        g.links.sort(function(a,b) {
+            if (a.source > b.source)
+            {
+                return 1;
+            }
+            else if (a.source < b.source)
+            {
+                return -1;
+            }
+            else
+            {
+                if (a.target > b.target)
+                {
+                    return 1;
+                }
+                if (a.target < b.target)
+                {
+                    return -1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+        });
+		console.log(g.links)
 
+    }
 
-
+    //any links with duplicate source and target get an incremented 'linknum'
+    function setLinkIndexAndNum(){
+        for (var i = 0; i < g.links.length; i++){
+            if (i != 0 &&
+                g.links[i].source == g.links[i-1].source &&
+                g.links[i].target == g.links[i-1].target)
+            {
+                g.links[i].linkindex = g.links[i-1].linkindex + 1;
+            }else{
+                g.links[i].linkindex = 1;
+            }
+            // save the total number of links between two nodes
+			//console.log(g.links[i])
+            if(mLinkNum[g.links[i].target + "," + g.links[i].source] !== undefined){
+                mLinkNum[g.links[i].target + "," + g.links[i].source] = g.links[i].linkindex;
+            }else{
+                mLinkNum[g.links[i].source + "," + g.links[i].target] = g.links[i].linkindex;
+            }
+        }
+    }
+	console.log(mLinkNum)
 }
 
 function gv_searcher(search_div){
