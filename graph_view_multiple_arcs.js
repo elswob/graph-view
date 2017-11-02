@@ -208,17 +208,6 @@ function gv_d3_graph(graph, gname, conf) {
     zoom.translate([width/2,height/2]).scale(zoomScale);
     zoom.event(svg.transition().duration(5000))
 
-    // var link = svg.selectAll(".link")
-    //     .data(graph.links)
-    //     .enter().append("line")
-    //     .attr("class", "link")
-    //     .style("stroke-width", function (d) {
-    //         return d.value;
-    //     })
-    //     .style("stroke", function (d) {
-    //         return conf[d.type].linkCol;
-    //     })
-
 
     var node = svg.selectAll(".node")
         .data(graph.nodes)
@@ -358,7 +347,7 @@ function gv_d3_graph(graph, gname, conf) {
         var pNode_nodes = new Array()
         //link.transition(t).style('stroke', function (l) {
         //d3.selectAll(".link")
-        link.each(function (l) {
+        path.each(function (l) {
             if (l.source === d || l.target === d) {
                 if (pNode_nodes.indexOf(l.target) < 0) {
                     pNode_nodes.push(l.target)
@@ -374,7 +363,7 @@ function gv_d3_graph(graph, gname, conf) {
                 //return 'green'
             } else {
                 d3.select(this)
-                    .style('stroke', '')
+                    .style('opacity', 0.1)
             }
         })
 
@@ -394,8 +383,8 @@ function gv_d3_graph(graph, gname, conf) {
     function mouseout() {
         //d3.select(this).style("cursor", "default")
         $("#pTable tbody tr").removeClass("highlight");
-        link.style('stroke', function (l) {
-            return conf[l.type].linkCol;
+        path.style('opacity', function (l) {
+            return 1;
         })
         node.style("opacity", function (o) {
             return 1
@@ -414,31 +403,6 @@ function gv_d3_graph(graph, gname, conf) {
 			//}
 		})
     }
-
-    // function tick() {
-    //     link.attr("x1", function (d) {
-    //             return d.source.x;
-    //         })
-    //         .attr("y1", function (d) {
-    //             return d.source.y;
-    //         })
-    //         .attr("x2", function (d) {
-    //             return d.target.x;
-    //         })
-    //         .attr("y2", function (d) {
-    //             return d.target.y;
-    //         });
-	//
-    //     node.attr("cx", function (d) {
-    //             return d.x;
-    //         })
-    //         .attr("cy", function (d) {
-    //             return d.y;
-    //         })
-    //         .attr("transform", function (d) {
-    //             return "translate(" + d.x + "," + d.y + ")";
-    //         })
-    // }
 
 	function tick() {
 		 path.attr("d", function(d) {
@@ -533,7 +497,7 @@ function gv_d3_graph(graph, gname, conf) {
                 }
             }
         });
-		console.log(g.links)
+		//console.log(g.links)
 
     }
 
@@ -557,7 +521,7 @@ function gv_d3_graph(graph, gname, conf) {
             }
         }
     }
-	console.log(mLinkNum)
+	//console.log(mLinkNum)
 }
 
 function gv_searcher(search_div){
